@@ -1,0 +1,180 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="oops">Oops</string>
+    <string name="and">and</string>
+    <string name="progress">Just a sec</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="whats_new_in">What\'s new in %s</string>
+    <string name="undo">Undo</string>
+    <string name="next">Next</string>
+    <string name="support_email" translatable="false">support@moonposapp.com</string>
+    <string name="privacy_policy_url" translatable="false">https://moonposapp.com/privacy-policy/</string>
+    <string name="try_again">Try again</string>
+    <string name="close">Close</string>
+    <string name="convertible_currencies_count" translatable="false">120</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!--  ================ ERRORS ================ -->
+    <!--  Shown when device is offline  -->
+    <string name="error_offline_message">It seems that your device is offline. Please, make sure that you are connected to the Internet and try again.</string>
+    <!--  Shown when prices of cryptocurrencies fail to download  -->
+    <string name="error_ticker_downlad">An error occurred when trying to download ticker. Please, make sure you are online and try again.</string>
+
+    <!--  ================ SETUP ================ -->
+    <!-- Setup Screen: Option to allow user to skip setup    -->
+    <string name="setup_skip_intro">… I will set the app up later. </string>
+    <string name="setup_skip"> Skip setup</string>
+    <string name="setup_skip_dialog_positive">Skip</string>
+    <string name="setup_skip_are_you_sure">Do you really want to skip the setup? If yes, the app will create cryptocurrencies with our random addresses and used FIAT currency will be USD.</string>
+    <string name="setup_next">Next</string>
+    <string name="setup_done">Done</string>
+
+    <!--  ================ SETUP: Welcome Screen ================ -->
+    <!-- Setup Screen: Welcome message  -->
+    <string name="setup_welcome_message_1">Welcome to MoonPos, your tool for accepting payments in cryptocurrencies in an easy way!</string>
+    <string name="setup_welcome_message_2">Set up your cryptocurrencies and start using the app. You will also be able to set all the settings in preferences later.</string>
+    <string name="setup_welcome_message_3">By clicking \'Next\' you agree to our </string>
+
+    <!-- Non-convertible currencies are currencies, that are not converted to another. Another name = direct  -->
+    <string name="setup_selection_title">Non-convertible currencies</string>
+    <string name="setup_selection_subtitle">Select cryptocurrencies for direct payments. For every selected currency you will need a public address from your wallet.</string>
+    <string name="setup_selection_add_another">I do not wish to add another currency</string>
+    <string name="setup_address_insertion_title">Insert your addresses</string>
+    <string name="setup_address_insertion_subtitle">You can insert or scan a QR code of your address</string>
+    <string name="setup_address_insertion_dialog_title">Insert your address</string>
+    <string name="setup_address_insertion_dialog_hint">Your %s address</string>
+    <string name="setup_address_insertion_invalid">This address is not valid!</string>
+    <string name="setup_settings_title">Pick your FIAT currency</string>
+    <string name="setup_settings_default_fiat">Default FIAT currency:</string>
+    <string name="setup_ticker_download_progress">Downloading ticker</string>
+
+    <!-- ================ HOME SCREEN ================ -->
+    <string name="home_generate">Generate QR code</string>
+    <string name="home_address">Address:</string>
+    <string name="home_amount">Amount:</string>
+    <string name="home_price_in_fiat">Price in %s:</string>
+    <string name="home_rates">Rates:</string>
+    <string name="home_payment_sent">Payment Sent</string>
+    <string name="home_payment_verification_progress_title">Payment verification</string>
+    <string name="home_payment_verification_progress_message">Waiting for payment to appear on the network</string>
+    <string name="home_payment_verification_progress_skip">Skip verification</string>
+    <string name="home_payment_verification_progress_skip_confirm_dialog_content">Are you sure you want to skip payment verification? The payment might not appear on the network.</string>
+    <string name="home_payment_verification_success_message">Payment was registered on the network!</string>
+    <string name="home_payment_verification_error_message">Oops! There was an issue with payment verification. Try it again later, please.</string>
+    <string name="home_payment_verification_done">Done! Your transaction was saved.</string>
+    <string name="home_error_ticker_fetch">Prices for %s could not be fetched.</string>
+
+    <!-- ================ PREFERENCES ================ -->
+    <string name="prefs_title">Preferences</string>
+    <string name="prefs_crypto">Crypto</string>
+    <string name="prefs_fiat">FIAT</string>
+    <string name="prefs_fiat_default">Default currency</string>
+    <string name="prefs_fiat_ticker_update">Last prices update</string>
+    <string name="prefs_other">Other</string>
+    <string name="prefs_other_payment_verification">Payment verification</string>
+    <string name="prefs_other_payment_verification_content">Happens after generating a QR code and confirming, that payment was sent. MoonPos will check, whether new transaction with given amount appeared on the blockchain. This allows you to prevent cheating (customer not sending the transaction).\n\nFor <b>direct payments</b>, payment verification is supported for BTC, LTC, DASH and ETH transactions.\n\nIf you are using <b>convertible payments</b>, payment verification is supported for all currencies except for Decred (DCR) and Lisk (LSK).</string>
+    <string name="prefs_other_support">Support</string>
+    <string name="prefs_other_support_email">Send email using:</string>
+    <string name="prefs_other_about">About</string>
+    <string name="prefs_other_about_content">App created by <a href="https://twitter.com/AmkSk">Andrej Martinák</a>.\n\nAnimations by <a href="https://twitter.com/bryvogel">Bryan Vogel</a>,\u0020<a href="https://www.lottiefiles.com/tfcorrea">Tiago Corrêa</a>,\u0020<a href="https://dribbble.com/Desare">Darius Afchar</a> and\u0020<a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
+    <string name="prefs_documents">Documents</string>
+
+    <string name="prefs_crypto_add">Add new cryptocurrency</string>
+    <string name="prefs_crypto_save">Save changes</string>
+    <string name="prefs_crypto_address">Your %s address:</string>
+    <string name="prefs_crypto_scan_qr">Scan QR</string>
+    <string name="prefs_crypto_address_hint">Insert your address here or scan a QR code on the top right.</string>
+    <string name="prefs_crypto_address_valid">This is a valid address</string>
+    <string name="prefs_crypto_address_invalid">This address is invalid!</string>
+    <string name="prefs_crypto_address_empty">Please insert your address either by text or by scanning a QR code</string>
+    <string name="prefs_crypto_delete_dialog_title">Are you sure?</string>
+    <string name="prefs_crypto_delete_dialog_content">Do you really want to delete this cryptocurrency from your list?</string>
+    <string name="prefs_crypto_selection_title">New cryptocurrency</string>
+    <string name="prefs_crypto_selection_direct_title">Direct payments</string>
+    <string name="prefs_crypto_selection_converted_title">Payments with conversion</string>
+    <string name="prefs_crypto_selection_add_converted">Add your convertible currency</string>
+    <string name="prefs_crypto_selection_converted_info">Choose your primary cryptocurrency and convert payments in other cryptocurrencies to it. This allows you to have only one cryptocurrency and accept payments in more than %s other top cryptocurrencies.</string>
+    <string name="prefs_crypto_selection_direct_info">Choose your cryptocurrency and simply add your address. Payments will be sent directly to your wallet.</string>
+
+    <!-- ================ Convertible crypto ================ -->
+    <!-- Convertible means, that it can be converted to another cryptocurrency -->
+    <string name="convertible_crypto">Convertible</string>
+    <string name="convertible_crypto_title">Convertible cryptocurrency</string>
+    <string name="convertible_crypto_already_set_up">Convertible currency already set up</string>
+    <string name="convertible_crypto_choose">Choose your primary cryptocurrency. Payments accepted in other cryptocurrencies will be automatically converted to this cryptocurrency and sent to your wallet.</string>
+    <string name="convertible_crypto_search_hint">Search by name or shortcut</string>
+    <string name="convertible_crypto_filter_empty">No cryptocurrency with name or shortcut \"%s\" found</string>
+    <string name="convertible_crypto_currency_already_added_title">Already using %s</string>
+    <string name="convertible_crypto_currency_already_added_content">You are already using %s as a cryptocurrency for payments. Do you want to use it for conversions?</string>
+    <string name="convertible_crypto_error_api">Oops! There was an issue with downloading the list of cryptocurrencies. Try it again later, please.</string>
+    <string name="convertible_crypto_validating_address">Validating address</string>
+    <string name="convertible_crypto_minimum_amount1">• There is a minimum amount required for the transaction to carry out. Minimal amounts fluctuate depending on BTC rate.</string>
+    <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
+    <string name="convertible_crypto_minimum_amount2">For example, the minimum amount for conversion from %1$s is currently %2$s %3$s, which is about %4$s.</string>
+    <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
+    <string name="convertible_crypto_fee">• For every conversion, there is a 1%% service fee. Direct transactions (from %1$s to %1$s) are free of charge.</string>
+    <string name="convertible_crypto_agreement_title">Agreement</string>
+    <string name="convertible_crypto_agreement_text1">• Exchange services are provided by a 3rd party - Changelly. By clicking \"I agree\" you acknowledge that you have read and agree to Changelly\'s <a href="https://changelly.com/terms-of-use">terms of use</a> and <a href="https://changelly.com/privacy-policy">privacy policy</a> and that you understand that your transaction may trigger AML/KYC verification according to Changelly\'s AML/KYC procedures. You can read more about the policy <a href="https://changelly.com/aml-kyc">here</a>.</string>
+    <string name="convertible_crypto_agreement_text2">• MoonPos accepts no responsibility and will not be liable for any loss or damage whatsoever suffered as a result of accessing, use of, or reliance upon Changelly\'s information and services. Changelly support can be accessed at <a href="https://support.changelly.com">support.changelly.com</a> or you can send an email to <a href="mailto:support@changelly.com">support@changelly.com</a>.</string>
+    <string name="convertible_crypto_agreement">I agree</string>
+    <string name="convertible_crypto_copy_address_label">%s address</string>
+    <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
+    <string name="convertible_crypto_copy_address_message">%s address copied to clipboard</string>
+    <string name="convertible_crypto_delete">Are you sure you want to delete this convertible cryptocurrency?</string>
+    <string name="convertible_crypto_error_validation">There was an issue with communicating with Changelly servers. Please, try again later.</string>
+
+    <string name="convertible_crypto_info_volatility_title">Worried about the volatility of prices?</string>
+    <string name="convertible_crypto_info_volatility_text">You can choose a stablecoin as your primary convertible cryptocurrency (e.g. Dai, Tether USDT, USD coin, etc.). The value of these cryptocurrencies is tied to US Dollar, so you don\'t have to worry about sudden price drops.</string>
+    <string name="convertible_crypto_info_checkbox">I do not want to set up a convertible cryptocurrency right now.</string>
+    <string name="convertible_crypto_minimum_title">Minimum amount</string>
+    <string name="convertible_crypto_minimum">The minimal amount for a conversion from %s is %s, which is %s %s</string>
+    <string name="convertible_crypto_minimum_error">There was an issue with getting the minimum amount from the server. Please, try again later</string>
+    <string name="convertible_crypto_create_transaction_error">There was an issue while creating convertible transaction. Please, try again later</string>
+    <string name="convertible_crypto_non_changelly_currencies">Your cryptocurrencies</string>
+    <string name="convertible_crypto_changelly_currencies">Convertible cryptocurrencies</string>
+    <string name="convertible_crypto_progress">Preparing payment…</string>
+
+    <!-- ================ TRANSACTION HISTORY ================ -->
+    <string name="transactions_title">Transaction history</string>
+    <string name="transactions_direct">Direct</string>
+    <string name="transactions_convertible">Convertible</string>
+    <string name="transactions_date">Date</string>
+    <string name="transactions_crypto">Crypto</string>
+    <string name="transactions_tx_id">Transaction ID</string>
+    <string name="transactions_fiat">FIAT</string>
+    <string name="transactions_confirmations">Confirmations</string>
+    <string name="transactions_status">Status</string>
+    <string name="transactions_empty_message">There are no recorded transactions.</string>
+    <string name="transactions_empty_message_convertible">There are no recorded convertible transactions.</string>
+    <string name="transactions_refresh">Refresh</string>
+    <string name="transactions_delete">Delete</string>
+    <string name="transactions_delete_dialog_title">Delete all transactions</string>
+    <string name="transactions_delete_content">Are you sure you want to remove all saved transactions? You can\'t undo this action.</string>
+    <string name="transactions_delete_all_convertible">Are you sure you want to remove all saved convertible transactions? You can\'t undo this action.</string>
+    <string name="transactions_dialog_copy">Copy transaction ID</string>
+    <string name="transactions_dialog_open_browser">Open transaction in browser</string>
+    <string name="transactions_dialog_delete">Delete transaction</string>
+    <string name="transactions_id_copied_clipboard">Transaction ID copied to clipboard</string>
+    <string name="transactions_deleted">Transaction was deleted</string>
+    <string name="transactions_error">An error occurred when downloading %s transactions. Please, try it again later.</string>
+
+    <string name="transactions_error_convertible">There was an issue downloading Changelly transactions. Please, try again later</string>
+    <string name="transactions_convertible_open_browser_incoming">Open incoming transaction in browser</string>
+    <string name="transactions_convertible_open_browser_outgoing">Open outgoing transaction in browser</string>
+    <string name="transactions_convertible_changelly_id">Changelly ID:</string>
+    <string name="transactions_convertible_rate">Conversion rate:</string>
+    <string name="transactions_convertible_fee">Conversion fee:</string>
+    <string name="transactions_network_fee">Network fee:</string>
+    <string name="transactions_convertible_incoming_amount">Incoming amount:</string>
+    <string name="transactions_convertible_outgoing_amount">Outgoing amount:</string>
+
+    <string name="whats_new_1_1_1">- Dai stablecoin support\n- Nano cryptocurrency support\n- More information about payment when QR code is presented</string>
+    <string name="whats_new_1_1_2">• Added support for conversion between cryptocurrencies by third party service - Changelly. Now you can accept payments with more than %s cryptocurrencies while using only one primary cryptocurrency (wallet).\n\n• Added support for more than 130 new FIAT currencies.\n\n• Updated Terms and Services and Privacy Policy (both can be found in Preferences)\n\n• Added support email to Preferences\n\n• User Experience enhancements for tablet users</string>
+</resources>
