@@ -1,5 +1,0 @@
-files:
-  - source: strings.xml
-    translation: /values-%two_letters_code%/strings.xml
-    translate_attributes: 0
-    content_segmentation: 0
