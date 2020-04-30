@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="search">Vyhľadať</string>
+    <string name="delete">Zmazať</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="oops">Hups</string>
+    <string name="and">a</string>
+    <string name="progress">Sekundu</string>
+    <string name="are_you_sure">Ste si istý?</string>
+    <string name="whats_new">Čo je nové</string>
+    <string name="whats_new_in">Čo je nové v %s</string>
+    <string name="undo">Späť</string>
+    <string name="next">Ďalej</string>
+    <string name="try_again">Skúste znova</string>
+    <string name="close">Zavrieť</string>
+    <string name="terms_and_conditions">Podmienky</string>
+    <string name="privacy_policy">Zásady ochrany osobných údajov</string>
+    <!--  ================ ERRORS ================ -->
+    <!--  Shown when device is offline  -->
+    <string name="error_offline_message">Zdá sa, že Vaše zariadenie je offline. Uistite sa, prosím, že ste pripojený k internetu a skúste to znovu.</string>
+    <!--  Shown when prices of cryptocurrencies fail to download  -->
+    <string name="error_ticker_downlad">Nastala chyba pri sťahovaní tickeru. Prosím, uistite sa, že ste online a skúste to znovu.</string>
+    <!--  ================ SETUP ================ -->
+    <!-- Setup Screen: Option to allow user to skip setup    -->
+    <string name="setup_skip_intro">… nastavím si aplikáciu neskôr</string>
+    <string name="setup_skip">Preskočiť nastavenie</string>
+    <string name="setup_skip_dialog_positive">Preskočiť</string>
+    <string name="setup_skip_are_you_sure">Ste si istý, že chcete preskočiť nastavenie aplikácie? Ak áno, aplikácia Vám vytvorí kryptomeny s náhodnými adresami a použitá FIAT mena bude USD.</string>
+    <string name="setup_next">Ďalej</string>
+    <string name="setup_done">Hotovo</string>
+    <!--  ================ SETUP: Welcome Screen ================ -->
+    <!-- Setup Screen: Welcome message  -->
+    <string name="setup_welcome_message_1">Vitajte v MoonPos, vašom nástroji pre jednoduché prijímanie platieb v kryptomenách!</string>
+    <string name="setup_welcome_message_2">Nastavte si Vaše kryptomeny a začnite používať aplikáciu. Všetko bude možné upraviť aj neskôr v nastaveniach aplikácie.</string>
+    <string name="setup_welcome_message_3">Kliknutím na \'Ďalej\' súhlasíte s našimi</string>
+    <!-- Non-convertible currencies are currencies, that are not converted to another. Another name = direct  -->
+    <string name="setup_selection_title">Nekonvertovateľné meny</string>
+    <string name="setup_selection_subtitle">Vyberte si kryptomeny pre priame platby. Pre každú vybranú menu budete potrebovať verejnú adresu z Vašej peňaženky.</string>
+    <string name="setup_selection_add_another">Nechcem pridať ďalšiu menu.</string>
+    <string name="setup_address_insertion_title">Vložte vašu adresu</string>
+    <string name="setup_address_insertion_subtitle">Môžete vložiť alebo naskenovať QR kód Vašej adresy</string>
+    <string name="setup_address_insertion_dialog_title">Vložte Vašu adresu</string>
+    <string name="setup_address_insertion_dialog_hint">Vaša %s adresa</string>
+    <string name="setup_address_insertion_invalid">Táto adresa je neplatná!</string>
+    <string name="setup_settings_title">Vyberte vašu FIAT menu</string>
+    <string name="setup_settings_default_fiat">Predvolená FIAT mena:</string>
+    <string name="setup_ticker_download_progress">Sťahujem ticker</string>
+    <!-- ================ HOME SCREEN ================ -->
+    <string name="home_generate">Vygenerovať QR kód</string>
+    <string name="home_address">Adresa:</string>
+    <string name="home_amount">Množstvo:</string>
+    <string name="home_price_in_fiat">Cena v %s:</string>
+    <string name="home_rates">Kurz:</string>
+    <string name="home_payment_sent">Platba odoslaná</string>
+    <string name="home_payment_verification_progress_title">Potvrdenie platby</string>
+    <string name="home_payment_verification_progress_message">Čaká sa, kým sa platba objaví na sieti</string>
+    <string name="home_payment_verification_progress_skip">Preskočiť potvrdzovanie</string>
+    <string name="home_payment_verification_progress_skip_confirm_dialog_content">Ste si istý, že chcete preskočiť potvrdenie platby? Platba sa nemusela objaviť na sieti.</string>
+    <string name="home_payment_verification_success_message">Platba sa objavila na sieti!</string>
+    <string name="home_payment_verification_error_message">Hups! Nastala chyba s potvrdzovaním platby. Skúste to neskôr, prosím</string>
+    <string name="home_payment_verification_done">Hotovo! Vaša transakcia bola uložená</string>
+    <string name="home_error_ticker_fetch">Platby pre %s nebolo možné získať.</string>
+    <!-- ================ PREFERENCES ================ -->
+    <string name="prefs_title">Nastavenia</string>
+    <string name="prefs_crypto">Krypto</string>
+    <string name="prefs_fiat">FIAT</string>
+    <string name="prefs_fiat_default">Predvolená mena</string>
+    <string name="prefs_fiat_ticker_update">Posledný čas aktualizácie cien</string>
+    <string name="prefs_other">Iné</string>
+    <string name="prefs_other_payment_verification">Potvrdenie platby</string>
+    <string name="prefs_other_payment_verification_content">Vykonáva sa po generovaní QR kódu a potvrdení, že platba bola odoslaná. MoonPos skontroluje, či sa nová transakcia s daným množstvom objavila na blockchaine. Tento proces slúži na ochranu proti podvodom (zákazník neodoslal transakciu).\n\nPre <b>priame platby</b>je potvrdzovanie podporované pre BTC, LTC, DASH a ETH.\n\nAk používate <b>konvertovateľné platby</b>, potvrdzovanie platieb je podporované pre všetky kryptomeny okrem Decred (DCR) a Lisk (LSK).</string>
+    <string name="prefs_other_support">Podpora</string>
+    <string name="prefs_other_support_email">Odoslať email s:</string>
+    <string name="prefs_other_about">O aplikácii</string>
+    <string name="prefs_other_about_content">Aplik\u00e1ciu vytvoril <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a>.\n\nAnim\u00e1cie s\u00fa od <a href="https://twitter.com/bryvogel">Bryan Vogel</a>, <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a>, <a href="https://dribbble.com/Desare">Darius Afchar</a> a <a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
+    <string name="prefs_documents">Dokumenty</string>
+    <string name="prefs_crypto_add">Pridať novú kryptomenu</string>
+    <string name="prefs_crypto_save">Uložiť zmeny</string>
+    <string name="prefs_crypto_address">Vaša %s adresa:</string>
+    <string name="prefs_crypto_scan_qr">Skenovať QR</string>
+    <string name="prefs_crypto_address_hint">Tu vložte Vašu adresu alebo naskenujte QR kód napravo hore.</string>
+    <string name="prefs_crypto_address_valid">Toto je platná adresa</string>
+    <string name="prefs_crypto_address_invalid">Táto adresa je neplatná!</string>
+    <string name="prefs_crypto_address_empty">Prosím vložte Vašu adresu buď textovo alebo oskenovaním QR kódu.</string>
+    <string name="prefs_crypto_delete_dialog_title">Ste si istý?</string>
+    <string name="prefs_crypto_delete_dialog_content">Naozaj chcete vymazať túto kryptomenu z Vašeho zoznamu?</string>
+    <string name="prefs_crypto_selection_title">Nová kryptomena</string>
+    <string name="prefs_crypto_selection_direct_title">Priame platby</string>
+    <string name="prefs_crypto_selection_converted_title">Platby s konverziou</string>
+    <string name="prefs_crypto_selection_add_converted">Pridajte vašu konvertovateľnú kryptomenu</string>
+    <string name="prefs_crypto_selection_converted_info">Vyberte vašu primárnu kryptomenu a konvertujte do nej platby v iných kryptomenách. Budete tak môcť používať iba jednu kryptomenu a zároveň prijímať platby vo viac ako %s iných top kryptomien.</string>
+    <string name="prefs_crypto_selection_direct_info">Vyberte vašu kryptomenu a jednoducho pridajte vašu adresu. Platby budú odoslané priamo do vašej peňaženky.</string>
+    <!-- ================ Convertible crypto ================ -->
+    <!-- Convertible means, that it can be converted to another cryptocurrency -->
+    <string name="convertible_crypto">Konvertovateľné</string>
+    <string name="convertible_crypto_title">Konvertovateľné kryptomeny</string>
+    <string name="convertible_crypto_already_set_up">Konvertovateľná mena je už nastavená</string>
+    <string name="convertible_crypto_choose">Vyberte Vašu primárnu kryptomenu. Platby prijaté v iných kryptomenách budú automaticky konvertované do tejto kryptomeny a poslané do Vašej peňaženky.</string>
+    <string name="convertible_crypto_search_hint">Vyhľadať podľa mena alebo skratky</string>
+    <string name="convertible_crypto_filter_empty">Nebola nájdená žiadna kryptomena s menom alebo skratkou \"%s\"</string>
+    <string name="convertible_crypto_currency_already_added_title">Už používate %s</string>
+    <string name="convertible_crypto_currency_already_added_content">Už používate %s ako kryptomenu pre platby. Chcete ju použiť pre konvertovanie?</string>
+    <string name="convertible_crypto_error_api">Hups! Nastala chyba pri sťahovaní zoznamu kryptomien. Skúste to znova neskôr, prosím.</string>
+    <string name="convertible_crypto_validating_address">Kontrolujem adresu</string>
+    <string name="convertible_crypto_minimum_amount1">• Na to, aby transakcia prebehla, je potrebné minimálne množstvo. Toto množstvo fluktuuje v závislosti na kurze BTC.</string>
+    <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
+    <string name="convertible_crypto_minimum_amount2">Napríklad: minimálne množstvo pre konverziu z %1$s je momentálne %2$s %3$s. čo je približne %4$s.</string>
+    <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
+    <string name="convertible_crypto_fee">• Pri každej konverzii  je poplatok za službu 1%%. Priame transakcie (z %1$s do %1$s) sú zadarmo.</string>
+    <string name="convertible_crypto_agreement_title">Súhlas</string>
+    <string name="convertible_crypto_agreement_text1">• Zmenárenské služby sú poskytnuté treťou stranou -  spoločnosťou Changelly. Kliknutím na \"Súhlasím\" potvrdzujete, že ste si prečítali a súhlasíte s <a href="https://changelly.com/terms-of-use">podmienkami používania</a> a <a href="https://changelly.com/privacy-policy">zásadami ochrany osobných údajov</a> Changelly, a že rozumiete tomu, že Vaša transakcia môže vyvolať AML/KYC verifikáciu v súľade s AML/KYC procedúrami spoločnosti Changelly. O týchto zásadách si môžete prečítať viac <a href="https://changelly.com/aml-kyc">tu</a>.</string>
+    <string name="convertible_crypto_agreement_text2">• MoonPos nenesie žiadnu zodpovednosť a nezodpovedá za žiadne straty ani škody, ktoré boli utrpené v dôsledku prístupu, používania alebo spoľahnutia sa na informácie a služby spoločnosti Changelly. Podpora spoločnosti Changelly sa nachádza na <a href="https://support.changelly.com">support.changelly.com</a> alebo môžete poslať email na <a href="mailto:support@changelly.com">support@changelly.com</a>.</string>
+    <string name="convertible_crypto_agreement">Súhlasím</string>
+    <string name="convertible_crypto_copy_address_label">%s adresa</string>
+    <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
+    <string name="convertible_crypto_copy_address_message">%s adresa skopírovaná do schránky</string>
+    <string name="convertible_crypto_delete">Ste si istý, že chcete vymazať túto konvertovateľnú kryptomenu?</string>
+    <string name="convertible_crypto_error_validation">Nastala chyba pri komunikáciou so servermi Changelly. Skúste to neskôr, prosím.</string>
+    <string name="convertible_crypto_info_volatility_title">Prekáža vám nestálosť cien kryptomien?</string>
+    <string name="convertible_crypto_info_volatility_text">Môžete si vybrať Stablecoin (stabilnú kryptomenu) ako Vašu primárnu kryptomenu (napr. Dai, Tether USDT, USD coin, atď). Cena týchto kryptomien je napojená na Americký dolár, takže sa nemusíte obávať náhlych pádov cien.</string>
+    <string name="convertible_crypto_info_checkbox">Teraz si nechcem nastaviť konvertovateľnú kryptomenu.</string>
+    <string name="convertible_crypto_minimum_title">Minimálna hodnota</string>
+    <string name="convertible_crypto_minimum">Minimálna hodnota pre konverziu z %s je %s, čo je %s%s</string>
+    <string name="convertible_crypto_minimum_error">Nastala chyba pri získavaní minimálnej hodnoty zo serveru. Skúste to neskôr, prosím</string>
+    <string name="convertible_crypto_create_transaction_error">Nastala chyba pri vytváraní konvertovateľnej transakcie. Skúste to neskôr, prosím</string>
+    <string name="convertible_crypto_non_changelly_currencies">Vaše kryptomeny</string>
+    <string name="convertible_crypto_changelly_currencies">Konvertovateľné kryptomeny</string>
+    <string name="convertible_crypto_progress">Pripravujem platbu…</string>
+    <!-- ================ TRANSACTION HISTORY ================ -->
+    <string name="transactions_title">História transkacií</string>
+    <string name="transactions_direct">Priame</string>
+    <string name="transactions_convertible">Konvertovateľné</string>
+    <string name="transactions_date">Dátum</string>
+    <string name="transactions_crypto">Krypto</string>
+    <string name="transactions_tx_id">ID Transakcie</string>
+    <string name="transactions_fiat">FIAT</string>
+    <string name="transactions_confirmations">Potvrdenia</string>
+    <string name="transactions_status">Stav</string>
+    <string name="transactions_empty_message">Žiadne uložené transakcie.</string>
+    <string name="transactions_empty_message_convertible">Nemáte žiadne uložené konvertovateľné transakcie.</string>
+    <string name="transactions_refresh">Obnoviť</string>
+    <string name="transactions_delete">Vymazať</string>
+    <string name="transactions_delete_dialog_title">Vymazať všetky transakcie</string>
+    <string name="transactions_delete_content">Ste si istí, že chcete vymazať všetky uložené transakcie? Túto akciu nie je možné vrátiť späť.</string>
+    <string name="transactions_delete_all_convertible">Ste si istí, že chcete vymazať všetky uložené konvertovateľné transakcie? Túto akciu nie je možné vrátiť späť.</string>
+    <string name="transactions_dialog_copy">Skopírovať ID transkacie</string>
+    <string name="transactions_dialog_open_browser">Otvoriť transakciu v prehliadači</string>
+    <string name="transactions_dialog_delete">Vymazať transakciu</string>
+    <string name="transactions_id_copied_clipboard">ID transakcie bolo skopírované do schránky</string>
+    <string name="transactions_deleted">Transakcia bola zmazaná</string>
+    <string name="transactions_error">Nastala chyba pri sťahovaní %s transakcií. Skúste to neskôr, prosím.</string>
+    <string name="transactions_error_convertible">Nastala chyba pri sťahovaní Changelly transkacií. Skúste to neskôr, prosím.</string>
+    <string name="transactions_convertible_open_browser_incoming">Otvoriť prichádzajúcu transakciu v prehliadači</string>
+    <string name="transactions_convertible_open_browser_outgoing">Otvoriť odchodziu transakciu v prehliadači</string>
+    <string name="transactions_convertible_changelly_id">Changelly ID:</string>
+    <string name="transactions_convertible_rate">Konverzný kurz:</string>
+    <string name="transactions_convertible_fee">Poplatok za konverziu:</string>
+    <string name="transactions_network_fee">Poplatok siete:</string>
+    <string name="transactions_convertible_incoming_amount">Prichádzajúca hodnota:</string>
+    <string name="transactions_convertible_outgoing_amount">Odchádzajúca hodnota:</string>
+    <string name="whats_new_1_1_1">- Podpora Dai stablecoin\n- Podpora Nano Kryptomeny\n- Viac informácií o platbe pri zobrazenom QR kóde</string>
+</resources>

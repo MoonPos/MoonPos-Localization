@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="search">Opzoeken</string>
+    <string name="delete">Verwijderen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="oops">Oeps</string>
+    <string name="and">en</string>
+    <string name="progress">Een momentje</string>
+    <string name="are_you_sure">Bent u zeker?</string>
+    <string name="whats_new">Wat is er nieuw</string>
+    <string name="whats_new_in">Wat is er nieuw in %s</string>
+    <string name="undo">Undo</string>
+    <string name="next">Volgende</string>
+    <string name="try_again">Probeer het nog eens</string>
+    <string name="close">Sluiten</string>
+    <string name="terms_and_conditions">Algemene voorwaarden</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <!--  ================ ERRORS ================ -->
+    <!--  Shown when device is offline  -->
+    <string name="error_offline_message">Het lijkt erop dat uw apparaat offline is. Zorg ervoor dat u verbinding heeft met internet en probeer het opnieuw.</string>
+    <!--  Shown when prices of cryptocurrencies fail to download  -->
+    <string name="error_ticker_downlad">Er is een fout opgetreden bij het downloaden van de ticker. Zorg ervoor dat u online bent en probeer het opnieuw.</string>
+    <!--  ================ SETUP ================ -->
+    <!-- Setup Screen: Option to allow user to skip setup    -->
+    <string name="setup_skip_intro">...Ik zal de app later instellen.</string>
+    <string name="setup_skip">Sla de setup over</string>
+    <string name="setup_skip_dialog_positive">Overslaan</string>
+    <string name="setup_skip_are_you_sure">Wilt u de setup echt overslaan? Zo ja, dan zal de app cryptovaluta\'s creëren met onze willekeurige adressen en de gebruikte FIAT geld zal USD zijn.</string>
+    <string name="setup_next">Volgende</string>
+    <string name="setup_done">Gedaan</string>
+    <!--  ================ SETUP: Welcome Screen ================ -->
+    <!-- Setup Screen: Welcome message  -->
+    <string name="setup_welcome_message_1">Welkom bij MoonPos, uw tool om betalingen in cryptovaluta\'s op een gemakkelijke manier te accepteren!</string>
+    <string name="setup_welcome_message_2">Stel uw cryptovaluta\'s in en begin de app te gebruiken. U kunt alle instellingen in de voorkeuren ook later instellen.</string>
+    <string name="setup_welcome_message_3">Door te klikken op \'Volgende\' gaat u akkoord met onze</string>
+    <!-- Non-convertible currencies are currencies, that are not converted to another. Another name = direct  -->
+    <string name="setup_selection_title">Niet-converteerbare valuta\'s</string>
+    <string name="setup_selection_subtitle">Selecteer cryptovaluta\'s voor directe betalingen. Voor elke geselecteerde valuta hebt u een openbaar adres uit uw portemonnee nodig.</string>
+    <string name="setup_selection_add_another">Ik wil geen andere valuta toevoegen</string>
+    <string name="setup_address_insertion_title">Voer uw adressen in</string>
+    <string name="setup_address_insertion_subtitle">U kunt een QR-code van uw adres invoegen of scannen</string>
+    <string name="setup_address_insertion_dialog_title">Voer uw adres in</string>
+    <string name="setup_address_insertion_dialog_hint">Uw %s adres</string>
+    <string name="setup_address_insertion_invalid">Dit adres is niet geldig!</string>
+    <string name="setup_settings_title">Kies uw FIAT geld</string>
+    <string name="setup_settings_default_fiat">Standaard FIAT geld:</string>
+    <string name="setup_ticker_download_progress">Ticker downloaden</string>
+    <!-- ================ HOME SCREEN ================ -->
+    <string name="home_generate">Genereer QR-code</string>
+    <string name="home_address">Adres:</string>
+    <string name="home_amount">Bedrag:</string>
+    <string name="home_price_in_fiat">Prijs in %s:</string>
+    <string name="home_rates">Tarieven:</string>
+    <string name="home_payment_sent">Betaling Verzonden</string>
+    <string name="home_payment_verification_progress_title">Betalingsverificatie</string>
+    <string name="home_payment_verification_progress_message">Wachten voor de betaling op het netwerk te verschijnen</string>
+    <string name="home_payment_verification_progress_skip">Sla verificatie over</string>
+    <string name="home_payment_verification_progress_skip_confirm_dialog_content">Bent u zeker dat u de betalingsverificatie wilt overslaan? De betaling zal misschien niet op het netwerk verschijnen.</string>
+    <string name="home_payment_verification_success_message">Betaling is geregistreerd op het netwerk!</string>
+    <string name="home_payment_verification_error_message">Oeps! Er is een probleem opgetreden met de betalingsverificatie. Probeer het later nog eens.</string>
+    <string name="home_payment_verification_done">Gedaan! Uw transactie is opgeslagen.</string>
+    <string name="home_error_ticker_fetch">Prijzen voor %s kunnen niet worden opgehaald.</string>
+    <!-- ================ PREFERENCES ================ -->
+    <string name="prefs_title">Voorkeuren</string>
+    <string name="prefs_crypto">Crypto</string>
+    <string name="prefs_fiat">FIAT</string>
+    <string name="prefs_fiat_default">Standaardvaluta</string>
+    <string name="prefs_fiat_ticker_update">Laatste prijsupdate</string>
+    <string name="prefs_other">Andere</string>
+    <string name="prefs_other_payment_verification">Betalingsverificatie</string>
+    <string name="prefs_other_payment_verification_content">Gebeurt na het genereren van een QR-code en de bevestiging dat die betaling is verzonden. MoonPos zal controleren of er een nieuwe transactie met een bepaald bedrag op de blockchain is verschenen. Hiermee kunt u een bedrog voorkomen (klant verstuurt de transactie niet).\n\nVoor <b>directe betalingen</b> wordt de betalingsverificatie ondersteund voor BTC, LTC, DASH en ETH transacties.\n\nAls u <b>converteerbare betalingen</b> gebruikt, wordt de betalingsverificatie ondersteund voor alle valuta\'s behalve Decred (DCR) en Lisk (LSK).</string>
+    <string name="prefs_other_support">Support</string>
+    <string name="prefs_other_support_email">Stuur e-mail met:</string>
+    <string name="prefs_other_about">About</string>
+    <string name="prefs_other_about_content">App wordt gecre\u00eberd door <a href="https://twitter.com/AmkSk"> Andrej Martin\u00e1k </a>.\n\nAnimaties door <a href="https://twitter.com/bryvogel">Bryan Vogel</a>, <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a>, <a href="https://dribbble.com/Desare">Darius Afchar</a> en <a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
+    <string name="prefs_documents">Documenten</string>
+    <string name="prefs_crypto_add">Voeg nieuwe cryptovaluta toe</string>
+    <string name="prefs_crypto_save">Wijzigingen opslaan</string>
+    <string name="prefs_crypto_address">Uw %s adres:</string>
+    <string name="prefs_crypto_scan_qr">QR scannen</string>
+    <string name="prefs_crypto_address_hint">Voer hier uw adres in of scan een QR-code rechtsboven.</string>
+    <string name="prefs_crypto_address_valid">Dit is een geldig adres</string>
+    <string name="prefs_crypto_address_invalid">Dit adres is niet geldig!</string>
+    <string name="prefs_crypto_address_empty">Voer uw adres in via tekst of door een QR-code te scannen</string>
+    <string name="prefs_crypto_delete_dialog_title">Bent u zeker?</string>
+    <string name="prefs_crypto_delete_dialog_content">Wilt u deze cryptovaluta echt uit uw lijst verwijderen?</string>
+    <string name="prefs_crypto_selection_title">Nieuwe cryptovaluta</string>
+    <string name="prefs_crypto_selection_direct_title">Directe betalingen</string>
+    <string name="prefs_crypto_selection_converted_title">Betalingen met conversie</string>
+    <string name="prefs_crypto_selection_add_converted">Voeg uw converteerbare valuta toe</string>
+    <string name="prefs_crypto_selection_converted_info">Kies uw primaire cryptovaluta en zet er betalingen in andere cryptovaluta naar om. Hierdoor kunt u slechts één cryptovaluta hebben en betalingen accepteren in meer dan %s andere top cryptovaluta\'s.</string>
+    <string name="prefs_crypto_selection_direct_info">Kies uw cryptovaluta en voeg gewoon uw adres toe. Betalingen zullen rechtstreeks naar uw portemonnee gestuurd.</string>
+    <!-- ================ Convertible crypto ================ -->
+    <!-- Convertible means, that it can be converted to another cryptocurrency -->
+    <string name="convertible_crypto">Converteerbaar</string>
+    <string name="convertible_crypto_title">Converteerbaar cryptovaluta</string>
+    <string name="convertible_crypto_already_set_up">Converteerbaar cryptovaluta is al ingesteld</string>
+    <string name="convertible_crypto_choose">Kies uw primaire cryptovaluta. Betalingen die in andere cryptovaluta\'s worden geaccepteerd, worden automatisch omgezet naar deze cryptovaluta en naar uw portemonnee gestuurd.</string>
+    <string name="convertible_crypto_search_hint">Zoek op naam of afkorting</string>
+    <string name="convertible_crypto_filter_empty">Geen cryptovaluta met de naam of afkorting \"%s\" gevonden</string>
+    <string name="convertible_crypto_currency_already_added_title">%s al gebruikt</string>
+    <string name="convertible_crypto_currency_already_added_content">U gebruikt %s al als de cryptovaluta voor betalingen. Wilt u het gebruiken voor conversies?</string>
+    <string name="convertible_crypto_error_api">Oeps! Er is een probleem opgetreden bij het downloaden van de lijst van cryptovaluta\'s. Probeer het later nog eens.</string>
+    <string name="convertible_crypto_validating_address">Adres valideren</string>
+    <string name="convertible_crypto_minimum_amount1">• Er is een minimumbedrag vereist om de transactie uit te voeren. Minimale bedragen fluctueren afhankelijk van het BTC tarief.</string>
+    <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
+    <string name="convertible_crypto_minimum_amount2">Bijvoorbeeld, het minimumbedrag voor conversie van %1$s is op dit moment %2$s %3$s, wat ongeveer %4$s is.</string>
+    <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
+    <string name="convertible_crypto_fee">• Voor elke conversie zijn er dienstverleningskosten van 1 %%. Directe transacties (van %1$s tot %1$s) zijn gratis.</string>
+    <string name="convertible_crypto_agreement_title">Overeenkomst</string>
+    <string name="convertible_crypto_agreement_text1">• Uitwisselingsdiensten worden geleverd door een derde partij - Changelly. Door op \"Ik ga akkoord\" te klikken, erkent u dat u de  <a href="https://changelly.com/terms-of-use">gebruiksvoorwaarden</a> en <a href="https://changelly.com/privacy-policy">privacybeleid</a> van Changelly hebt gelezen en ermee akkoord gaat en dat u begrijpt dat uw transactie can activeren AML / KYC-verificatie volgens de AML / KYC-procedures van Changelly. U kunt meer lezen over het beleid <a href="https://changelly.com/aml-kyc">hier</a>.</string>
+    <string name="convertible_crypto_agreement_text2">MoonPos aanvaardt geen verantwoordelijkheid en is niet aansprakelijk voor verlies of schade geleden als gevolg van toegang tot, gebruik van of vertrouwen op de informatie en diensten van Changelly. Hier kunt u contact opnemen met Changelly support <a href="https://support.changelly.com">support.changelly.com</a> of u kunt een e-mail sturen naar <a href="mailto:support@changelly.com">support@changelly.com</a>.</string>
+    <string name="convertible_crypto_agreement">Ik ga akkoord</string>
+    <string name="convertible_crypto_copy_address_label">%s adres</string>
+    <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
+    <string name="convertible_crypto_copy_address_message">%s adres gekopieerd naar de clipboard</string>
+    <string name="convertible_crypto_delete">Wilt u deze converteerbare cryptovaluta echt verwijderen?</string>
+    <string name="convertible_crypto_error_validation">Er is een probleem opgetreden met de communicatie met Changelly-servers. Probeer het later nog eens.</string>
+    <string name="convertible_crypto_info_volatility_title">Maakt u zich zorgen over de volatiliteit van prijzen?</string>
+    <string name="convertible_crypto_info_volatility_text">U kunt een stablecoin kiezen als uw primaire converteerbare cryptovaluta (bijvoorbeeld Dai, Tether USDT, USD-coin, enz.). De waarde van deze cryptovaluta is gekoppeld aan de Amerikaanse dollar, dus u hoeft zich geen zorgen te maken over plotselinge prijsdalingen.</string>
+    <string name="convertible_crypto_info_checkbox">Ik wil op dit moment geen converteerbare cryptovaluta instellen.</string>
+    <string name="convertible_crypto_minimum_title">Minimumbedrag</string>
+    <string name="convertible_crypto_minimum">Het minimumbedrag voor conversie van  %s is %s, en dat is %s %s</string>
+    <string name="convertible_crypto_minimum_error">Er is een probleem opgetreden bij het ophalen van het minimumbedrag van de server. Probeer het later nog eens</string>
+    <string name="convertible_crypto_create_transaction_error">Er is een probleem opgetreden bij het creëren van een converteerbare transactie. Probeer het later nog eens</string>
+    <string name="convertible_crypto_non_changelly_currencies">Uw cryptovaluta\'s</string>
+    <string name="convertible_crypto_changelly_currencies">Converteerbaar cryptovaluta\'s</string>
+    <string name="convertible_crypto_progress">Betaling voorbereiden...</string>
+    <!-- ================ TRANSACTION HISTORY ================ -->
+    <string name="transactions_title">Transactiegeschiedenis</string>
+    <string name="transactions_direct">Direct</string>
+    <string name="transactions_convertible">Converteerbaar</string>
+    <string name="transactions_date">Datum</string>
+    <string name="transactions_crypto">Crypto</string>
+    <string name="transactions_tx_id">Transactie ID</string>
+    <string name="transactions_fiat">FIAT</string>
+    <string name="transactions_confirmations">Confirmatie</string>
+    <string name="transactions_status">Status</string>
+    <string name="transactions_empty_message">Er zijn geen geregistreerde transacties.</string>
+    <string name="transactions_empty_message_convertible">Er zijn geen geregistreerde converteerbare transacties.</string>
+    <string name="transactions_refresh">Refresh</string>
+    <string name="transactions_delete">Verwijderen</string>
+    <string name="transactions_delete_dialog_title">Verwijderen alle transacties</string>
+    <string name="transactions_delete_content">Weet u zeker dat u alle opgeslagen transacties wilt verwijderen? U kunt deze actie niet ongedaan maken.</string>
+    <string name="transactions_delete_all_convertible">Weet u zeker dat u alle opgeslagen converteerbare transacties wilt verwijderen? U kunt deze actie niet ongedaan maken.</string>
+    <string name="transactions_dialog_copy">Transactie ID kopiëren</string>
+    <string name="transactions_dialog_open_browser">Open transactie in browser</string>
+    <string name="transactions_dialog_delete">Transactie verwijderen</string>
+    <string name="transactions_id_copied_clipboard">Transactie ID gekopieerd naar de clipboard</string>
+    <string name="transactions_deleted">Transactie is verwijderd</string>
+    <string name="transactions_error">Er is een probleem opgetreden bij het downloaden van %s transacties. Probeer het later nog eens.</string>
+    <string name="transactions_error_convertible">Er is een probleem opgetreden bij het downloaden van Changelly transacties. Probeer het later nog eens.</string>
+    <string name="transactions_convertible_open_browser_incoming">Open inkomende transactie in browser</string>
+    <string name="transactions_convertible_open_browser_outgoing">Open uitgaande transactie in browser</string>
+    <string name="transactions_convertible_changelly_id">Changelly ID:</string>
+    <string name="transactions_convertible_rate">Conversie tarief:</string>
+    <string name="transactions_convertible_fee">Conversiekosten:</string>
+    <string name="transactions_network_fee">Netwerkkosten:</string>
+    <string name="transactions_convertible_incoming_amount">Inkomend bedrag:</string>
+    <string name="transactions_convertible_outgoing_amount">Uitgaand bedrag:</string>
+    <string name="whats_new_1_1_1">- Dai stablecoin support\n- Nano cryptovaluta support\n- Meer informatie over betaling als QR-code wordt gepresenteerd</string>
+    <string name="whats_new_1_1_2">• Support toegevoegd voor conversie tussen cryptovaluta\'s door service van derden - Changelly. Nu kunt u betalingen accepteren met meer dan %s cryptovaluta\'s terwijl u slechts één primaire cryptovaluta (portemonnee) gebruikt.\n\n• Support toegevoegd voor meer dan 130 nieuwe FIAT-valuta\'s.\n\n• Bijgewerkte Terms en services en Privacybeleid (beide zijn te vinden in Voorkeuren)\n\n• Support e-mail toegevoegd naar Voorkeuren\n\n• Verbeteringen in User Experience voor tabletgebruikers</string>
+</resources>
