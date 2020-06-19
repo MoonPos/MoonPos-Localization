@@ -177,4 +177,5 @@
 
     <string name="whats_new_1_1_1">- Dai stablecoin support\n- Nano cryptocurrency support\n- More information about payment when QR code is presented</string>
     <string name="whats_new_1_1_2">• Added support for conversion between cryptocurrencies by third party service - Changelly. Now you can accept payments with more than %s cryptocurrencies while using only one primary cryptocurrency (wallet).\n\n• Added support for more than 130 new FIAT currencies.\n\n• Updated Terms and Services and Privacy Policy (both can be found in Preferences)\n\n• Added support email to Preferences\n\n• User Experience enhancements for tablet users</string>
+    <string name="whats_new_1_2_1">Added translations to: Spanish, German, Czech, Slovak, Portuguese, Brazilian Portuguese and Dutch </string>
 </resources>

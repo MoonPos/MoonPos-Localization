@@ -1,154 +1,142 @@
+<?xml version="1.0"?>
 <resources>
-    <string name="ok">Okay</string>
+    <string name="ok">Aceptar</string>
     <string name="cancel">Cancelar</string>
     <string name="search">Buscar</string>
     <string name="delete">Eliminar</string>
-    <string name="yes">si</string>
+    <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="oops">Ups</string>
     <string name="and">y</string>
-    <string name="progress">Solo un segundo</string>
+    <string name="progress">Sólo un segundo</string>
     <string name="are_you_sure">¿Estás seguro?</string>
     <string name="whats_new">Qué hay de nuevo</string>
     <string name="whats_new_in">¿Qué hay de nuevo en %s?</string>
     <string name="undo">Deshacer</string>
-    <string name="next">próximo</string>
-    <string name="support_email" translatable="false">support@moonposapp.com</string>
-    <string name="privacy_policy_url" translatable="false">https://moonposapp.com/privacy-policy/</string>
+    <string name="next">Siguiente</string>
     <string name="try_again">Inténtalo de nuevo</string>
     <string name="close">Cerrar</string>
-    <string name="convertible_currencies_count" translatable="false">120</string>
     <string name="terms_and_conditions">Términos y Condiciones</string>
-    <string name="privacy_policy">Política de privacidad</string>
-
-    
-    
-    <string name="error_offline_message">Parece que tu dispositivo está fuera de línea. Asegúrese de estar conectado a Internet e intente nuevamente.</string>
-    
-    <string name="error_ticker_downlad">Se produjo un error al intentar descargar el ticker. Por favor, asegúrese de estar en línea e intente nuevamente.</string>
-
-    
-    
+    <string name="privacy_policy">Política de Privacidad</string>
+    <!--  ================ ERRORS ================ -->
+    <!--  Shown when device is offline  -->
+    <string name="error_offline_message">Parece que tu dispositivo está sin conexión. Asegúrate de estar conectado a Internet e inténtalo nuevamente.</string>
+    <!--  Shown when prices of cryptocurrencies fail to download  -->
+    <string name="error_ticker_downlad">Se produjo un error al intentar descargar la lista de precios. Por favor, asegúrate de estar en línea e inténtalo nuevamente.</string>
+    <!--  ================ SETUP ================ -->
+    <!-- Setup Screen: Option to allow user to skip setup    -->
     <string name="setup_skip_intro">... Configuraré la aplicación más tarde.</string>
-    <string name="setup_skip">Saltar configuración</string>
+    <string name="setup_skip">Omitir configuración</string>
     <string name="setup_skip_dialog_positive">Omitir</string>
-    <string name="setup_skip_are_you_sure">¿Realmente quieres saltear la configuración? En caso afirmativo, la aplicación creará criptomonedas con nuestras direcciones aleatorias y la moneda FIAT utilizada será USD.</string>
-    <string name="setup_next">próximo</string>
-    <string name="setup_done">Hecho</string>
-
-    
-    
-    <string name="setup_welcome_message_1">¡Bienvenido a MoonPos, su herramienta para aceptar pagos en criptomonedas de una manera fácil!</string>
-    <string name="setup_welcome_message_2">Configure sus criptomonedas y comience a usar la aplicación. También podrá establecer todas las configuraciones en las preferencias más adelante.</string>
-    <string name="setup_welcome_message_3">Al hacer clic en \'Siguiente\', acepta nuestro</string>
-
-    
+    <string name="setup_skip_are_you_sure">¿Realmente quieres omitir la configuración? Si es así, la aplicación creará criptomonedas con nuestras direcciones aleatorias y la moneda por decreto utilizada será USD.</string>
+    <string name="setup_next">Siguiente</string>
+    <string name="setup_done">Listo</string>
+    <!--  ================ SETUP: Welcome Screen ================ -->
+    <!-- Setup Screen: Welcome message  -->
+    <string name="setup_welcome_message_1">¡Bienvenido a MoonPos, tu herramienta para aceptar pagos en criptomonedas de una manera fácil!</string>
+    <string name="setup_welcome_message_2">Configura tus criptomonedas y comienza a usar la aplicación. También podrás establecer todas las configuraciones en las preferencias más tarde.</string>
+    <string name="setup_welcome_message_3">Al hacer clic en \'Siguiente\', aceptas nuestro(s)</string>
+    <!-- Non-convertible currencies are currencies, that are not converted to another. Another name = direct  -->
     <string name="setup_selection_title">Monedas no convertibles</string>
-    <string name="setup_selection_subtitle">Seleccione criptomonedas para pagos directos. Para cada moneda seleccionada, necesitará una dirección pública de su billetera.</string>
+    <string name="setup_selection_subtitle">Selecciona criptomonedas para pagos directos. Para cada moneda seleccionada, necesitarás una dirección pública de tu billetera.</string>
     <string name="setup_selection_add_another">No deseo agregar otra moneda</string>
     <string name="setup_address_insertion_title">Inserta tus direcciones</string>
-    <string name="setup_address_insertion_subtitle">Puede insertar o escanear un código QR de su dirección</string>
+    <string name="setup_address_insertion_subtitle">Puedes insertar o escanear un código QR de tu dirección</string>
     <string name="setup_address_insertion_dialog_title">Introduce tu dirección</string>
-    <string name="setup_address_insertion_dialog_hint">Tu dirección %s</string>
+    <string name="setup_address_insertion_dialog_hint">Tu dirección de %s</string>
     <string name="setup_address_insertion_invalid">¡Esta dirección no es válida!</string>
-    <string name="setup_settings_title">Elige tu moneda FIAT</string>
-    <string name="setup_settings_default_fiat">Moneda FIAT predeterminada:</string>
-    <string name="setup_ticker_download_progress">Descargando ticker</string>
-
-    
+    <string name="setup_settings_title">Elige tu moneda por decreto</string>
+    <string name="setup_settings_default_fiat">Moneda por decreto predeterminada:</string>
+    <string name="setup_ticker_download_progress">Descargando lista de precios</string>
+    <!-- ================ HOME SCREEN ================ -->
     <string name="home_generate">Generar código QR</string>
-    <string name="home_address">Habla a:</string>
+    <string name="home_address">Dirección:</string>
     <string name="home_amount">Cantidad:</string>
     <string name="home_price_in_fiat">Precio en %s:</string>
     <string name="home_rates">Tarifas:</string>
-    <string name="home_payment_sent">Pago enviado</string>
+    <string name="home_payment_sent">Pago Enviado</string>
     <string name="home_payment_verification_progress_title">Verificación de pago</string>
-    <string name="home_payment_verification_progress_message">Esperando a que aparezca el pago en la red</string>
+    <string name="home_payment_verification_progress_message">Esperando a que el pago aparezca en la red</string>
     <string name="home_payment_verification_progress_skip">Omitir verificación</string>
-    <string name="home_payment_verification_progress_skip_confirm_dialog_content">¿Estás seguro de que quieres saltarte la verificación de pago? Es posible que el pago no aparezca en la red.</string>
-    <string name="home_payment_verification_success_message">El pago se registró en la red!</string>
-    <string name="home_payment_verification_error_message">¡Uy! Hubo un problema con la verificación del pago. Inténtalo de nuevo más tarde, por favor.</string>
-    <string name="home_payment_verification_done">¡Hecho! Su transacción fue guardada.</string>
-    <string name="home_error_ticker_fetch">No se pudieron obtener los precios de %s.</string>
-
-    
+    <string name="home_payment_verification_progress_skip_confirm_dialog_content">¿Estás seguro de que quieres omitir la verificación de pago? Es posible que el pago no aparezca en la red.</string>
+    <string name="home_payment_verification_success_message">¡El pago se registró en la red!</string>
+    <string name="home_payment_verification_error_message">¡Ups! Hubo un problema con la verificación del pago. Inténtalo de nuevo más tarde, por favor.</string>
+    <string name="home_payment_verification_done">¡Listo! Tu transacción fue guardada.</string>
+    <string name="home_error_ticker_fetch">No se pudieron obtener los precios para %s.</string>
+    <!-- ================ PREFERENCES ================ -->
     <string name="prefs_title">Preferencias</string>
     <string name="prefs_crypto">Cripto</string>
-    <string name="prefs_fiat">FÍAT</string>
-    <string name="prefs_fiat_default">Moneda por defecto</string>
+    <string name="prefs_fiat">FIAT</string>
+    <string name="prefs_fiat_default">Moneda predeterminada</string>
     <string name="prefs_fiat_ticker_update">Última actualización de precios</string>
     <string name="prefs_other">Otro</string>
     <string name="prefs_other_payment_verification">Verificación de pago</string>
-    <string name="prefs_other_payment_verification_content">Ocurre después de generar un código QR y confirmar que se envió el pago. MoonPos verificará si la nueva transacción con la cantidad dada apareció en la cadena de bloques. Esto le permite evitar trampas (el cliente no envía la transacción). \N \nPara<b> pagos directos</b> , la verificación de pagos es compatible con las transacciones BTC, LTC, DASH y ETH. \n\nSi está utilizando<b> pagos convertibles</b> , la verificación de pagos es compatible con todas las monedas excepto Decred (DCR) y Lisk (LSK).</string>
-    <string name="prefs_other_support">Apoyo</string>
+    <string name="prefs_other_payment_verification_content">Ocurre después de generar un código QR y confirmar que se envió el pago. MoonPos verificará si la nueva transacción con la cantidad dada apareció en la cadena de bloques. Esto te permite evitar los engaños (que el cliente no envíe la transacción).\n\nPara <b>pagos directos</b>, la verificación de pagos es compatible con las transacciones BTC, LTC, DASH y ETH. \n\nSi estás utilizando <b>pagos convertibles</b>, la verificación de pagos es compatible con todas las monedas excepto Decred (DCR) y Lisk (LSK).</string>
+    <string name="prefs_other_support">Soporte</string>
     <string name="prefs_other_support_email">Enviar correo electrónico usando:</string>
     <string name="prefs_other_about">Acerca de</string>
-    <string name="prefs_other_about_content">Aplicación creada por<a href="https://twitter.com/AmkSk"> Andrej Martinák</a> . \n\nAnimaciones por<a href="https://twitter.com/bryvogel"> Bryan Vogel</a> , \u0020<a href="https://www.lottiefiles.com/tfcorrea"> Tiago Corrêa</a> , \u0020<a href="https://dribbble.com/Desare"> Darius Afchar</a> y \u0020<a href="https://www.lottiefiles.com/u/395"> Jean Sala</a>  </string>
+    <string name="prefs_other_about_content">Aplicaci\u00f3n creada por <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a> .\n\nAnimaciones por <a href="https://twitter.com/bryvogel"> Bryan Vogel</a>, <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a>, <a href="https://dribbble.com/Desare">Darius Afchar</a> y  <a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
     <string name="prefs_documents">Documentos</string>
-
     <string name="prefs_crypto_add">Agregar nueva criptomoneda</string>
     <string name="prefs_crypto_save">Guardar cambios</string>
-    <string name="prefs_crypto_address">Tu %s dirección:</string>
+    <string name="prefs_crypto_address">Tu dirección de %s:</string>
     <string name="prefs_crypto_scan_qr">Escanear QR</string>
-    <string name="prefs_crypto_address_hint">Inserte su dirección aquí o escanee un código QR en la parte superior derecha.</string>
-    <string name="prefs_crypto_address_valid">Esta es una direccion valida</string>
-    <string name="prefs_crypto_address_invalid">¡Esta dirección no es válida!</string>
-    <string name="prefs_crypto_address_empty">Ingrese su dirección ya sea por texto o escaneando un código QR</string>
+    <string name="prefs_crypto_address_hint">Inserta tu dirección aquí o escanea un código QR en la parte superior derecha.</string>
+    <string name="prefs_crypto_address_valid">Ésta es una dirección válida</string>
+    <string name="prefs_crypto_address_invalid">¡Ésta dirección no es válida!</string>
+    <string name="prefs_crypto_address_empty">Por favor ingresa tu dirección ya sea por texto o escaneando un código QR</string>
     <string name="prefs_crypto_delete_dialog_title">¿Estás seguro?</string>
     <string name="prefs_crypto_delete_dialog_content">¿Realmente quieres eliminar esta criptomoneda de tu lista?</string>
     <string name="prefs_crypto_selection_title">Nueva criptomoneda</string>
     <string name="prefs_crypto_selection_direct_title">Pagos directos</string>
     <string name="prefs_crypto_selection_converted_title">Pagos con conversión</string>
-    <string name="prefs_crypto_selection_add_converted">Agregue su moneda convertible</string>
-    <string name="prefs_crypto_selection_converted_info">Elija su criptomoneda principal y convierta los pagos en otras criptomonedas en ella. Esto le permite tener solo una criptomoneda y aceptar pagos en más de %s otras criptomonedas principales.</string>
-    <string name="prefs_crypto_selection_direct_info">Elija su criptomoneda y simplemente agregue su dirección. Los pagos se enviarán directamente a su billetera.</string>
-
-    
-    
+    <string name="prefs_crypto_selection_add_converted">Agrega tu moneda convertible</string>
+    <string name="prefs_crypto_selection_converted_info">Elige tu criptomoneda principal y convierte los pagos en otras criptomonedas en ella. Esto te permite tener solo una criptomoneda y aceptar pagos en más de %s de otras criptomonedas superiores.</string>
+    <string name="prefs_crypto_selection_direct_info">Elige tu criptomoneda y simplemente agrega tu dirección. Los pagos se enviarán directamente a tu billetera.</string>
+    <!-- ================ Convertible crypto ================ -->
+    <!-- Convertible means, that it can be converted to another cryptocurrency -->
     <string name="convertible_crypto">Convertible</string>
     <string name="convertible_crypto_title">Criptomoneda convertible</string>
     <string name="convertible_crypto_already_set_up">Moneda convertible ya configurada</string>
-    <string name="convertible_crypto_choose">Elige tu criptomoneda principal. Los pagos aceptados en otras criptomonedas se convertirán automáticamente a esta criptomoneda y se enviarán a su billetera.</string>
+    <string name="convertible_crypto_choose">Elige tu criptomoneda principal. Los pagos aceptados en otras criptomonedas se convertirán automáticamente a esta criptomoneda y se enviarán a tu billetera.</string>
     <string name="convertible_crypto_search_hint">Buscar por nombre o acceso directo</string>
-    <string name="convertible_crypto_filter_empty">No se encontró criptomoneda con nombre o acceso directo \" %s \"</string>
-    <string name="convertible_crypto_currency_already_added_title">Ya estoy usando %s</string>
-    <string name="convertible_crypto_currency_already_added_content">Ya está utilizando %s como criptomoneda para pagos. ¿Quieres usarlo para conversiones?</string>
-    <string name="convertible_crypto_error_api">¡Uy! Hubo un problema con la descarga de la lista de criptomonedas. Inténtalo de nuevo más tarde, por favor.</string>
-    <string name="convertible_crypto_validating_address">Dirección de validación</string>
+    <string name="convertible_crypto_filter_empty">No se encontró criptomoneda con nombre o acceso directo \"%s\"</string>
+    <string name="convertible_crypto_currency_already_added_title">Ya está usando %s</string>
+    <string name="convertible_crypto_currency_already_added_content">Ya estás utilizando %s como criptomoneda para pagos. ¿Quieres usarla para conversiones?</string>
+    <string name="convertible_crypto_error_api">¡Ups! Hubo un problema con la descarga de la lista de criptomonedas. Inténtalo de nuevo más tarde, por favor.</string>
+    <string name="convertible_crypto_validating_address">Validando dirección</string>
     <string name="convertible_crypto_minimum_amount1">• Se requiere un monto mínimo para que la transacción se lleve a cabo. Las cantidades mínimas fluctúan dependiendo de la tasa de BTC.</string>
-    
+    <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
     <string name="convertible_crypto_minimum_amount2">Por ejemplo, la cantidad mínima para la conversión de %1$s es actualmente %2$s %3$s, que es aproximadamente %4$s.</string>
-    
-    <string name="convertible_crypto_fee">• Por cada conversión, hay una tarifa de servicio del 1 %%. Las transacciones directas (de %1$s a %1$s) son gratuitas.</string>
+    <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
+    <string name="convertible_crypto_fee">• Por cada conversión, hay un cargo de servicio del 1%%. Las transacciones directas (de %1$s a %1$s) son gratuitas.</string>
     <string name="convertible_crypto_agreement_title">Acuerdo</string>
-    <string name="convertible_crypto_agreement_text1">• Los servicios de intercambio son proporcionados por un tercero: Changelly. Al hacer clic en "Acepto", usted reconoce que ha leído y acepta los cambios de Changelly.<a href="https://changelly.com/terms-of-use"> términos de Uso</a> y<a href="https://changelly.com/privacy-policy"> política de privacidad</a> y que comprende que su transacción puede desencadenar la verificación AML /KYC de acuerdo con los procedimientos AML /KYC de Changelly. Puedes leer más sobre la política<a href="https://changelly.com/aml-kyc"> aquí</a> .</string>
-    <string name="convertible_crypto_agreement_text2">• MoonPos no acepta ninguna responsabilidad y no será responsable de ninguna pérdida o daño sufrido como resultado del acceso, uso o dependencia de la información y los servicios de Changelly. Se puede acceder al soporte de Changelly en<a href="https://support.changelly.com"> support.changelly.com</a> o puedes enviar un correo electrónico a<a href="mailto:support@changelly.com"> support@changelly.com</a> .</string>
-    <string name="convertible_crypto_agreement">estoy de acuerdo</string>
+    <string name="convertible_crypto_agreement_text1">• Los servicios de intercambio son proporcionados por un tercero - Changelly. Al hacer clic en \"Acepto\", usted reconoce que ha leído y acepta los <a href="https://changelly.com/terms-of-use">términos de uso</a> y <a href="https://changelly.com/privacy-policy">política de privacidad de Changelly</a> y que usted comprende que su transacción puede desencadenar la verificación AML/KYC de acuerdo con los procedimientos AML/KYC de Changelly. Usted puede leer más sobre la política <a href="https://changelly.com/aml-kyc">aquí</a> .</string>
+    <string name="convertible_crypto_agreement_text2">• MoonPos no acepta ninguna responsabilidad y no será responsable de ninguna pérdida o daño sufrido como resultado del acceso, uso o dependencia de la información y los servicios de Changelly. Se puede acceder al soporte de Changelly en <a href="https://support.changelly.com">support.changelly.com</a> o usted puede enviar un correo electrónico a <a href="mailto:support@changelly.com">support@changelly.com</a>.</string>
+    <string name="convertible_crypto_agreement">Estoy de acuerdo</string>
     <string name="convertible_crypto_copy_address_label">Dirección %s</string>
-    
+    <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
     <string name="convertible_crypto_copy_address_message">%s dirección copiada al portapapeles</string>
-    <string name="convertible_crypto_delete">¿Seguro que quieres eliminar esta criptomoneda convertible?</string>
+    <string name="convertible_crypto_delete">¿Estás seguro de que quieres eliminar esta criptomoneda convertible?</string>
     <string name="convertible_crypto_error_validation">Hubo un problema con la comunicación con los servidores de Changelly. Por favor, inténtelo de nuevo más tarde.</string>
-
     <string name="convertible_crypto_info_volatility_title">¿Preocupado por la volatilidad de los precios?</string>
-    <string name="convertible_crypto_info_volatility_text">Puede elegir una moneda estable como su criptomoneda convertible principal (por ejemplo, Dai, Tether USDT, USD coin, etc.). El valor de estas criptomonedas está vinculado al dólar estadounidense, por lo que no tiene que preocuparse por la caída repentina de los precios.</string>
+    <string name="convertible_crypto_info_volatility_text">Puedes elegir una moneda estable como su criptomoneda convertible principal (por ejemplo, Dai, Tether USDT, USD coin, etc.). El valor de estas criptomonedas está vinculado al dólar estadounidense, por lo que no tienes que preocuparte por la caída repentina de los precios.</string>
     <string name="convertible_crypto_info_checkbox">No quiero configurar una criptomoneda convertible en este momento.</string>
-    <string name="convertible_crypto_minimum_title">Monto minimo</string>
+    <string name="convertible_crypto_minimum_title">Monto mínimo</string>
     <string name="convertible_crypto_minimum">La cantidad mínima para una conversión de %s es %s, que es %s %s</string>
     <string name="convertible_crypto_minimum_error">Hubo un problema al obtener la cantidad mínima del servidor. Por favor, inténtelo de nuevo más tarde</string>
     <string name="convertible_crypto_create_transaction_error">Hubo un problema al crear una transacción convertible. Por favor, inténtelo de nuevo más tarde</string>
-    <string name="convertible_crypto_non_changelly_currencies">Sus criptomonedas</string>
+    <string name="convertible_crypto_non_changelly_currencies">Tus criptomonedas</string>
     <string name="convertible_crypto_changelly_currencies">Criptomonedas convertibles</string>
-    <string name="convertible_crypto_progress">Preparando pago ...</string>
-
-    
+    <string name="convertible_crypto_progress">Preparando pago...</string>
+    <!-- ================ TRANSACTION HISTORY ================ -->
     <string name="transactions_title">Historial de transacciones</string>
     <string name="transactions_direct">Directo</string>
     <string name="transactions_convertible">Convertible</string>
     <string name="transactions_date">Fecha</string>
     <string name="transactions_crypto">Cripto</string>
     <string name="transactions_tx_id">ID de transacción</string>
-    <string name="transactions_fiat">FÍAT</string>
+    <string name="transactions_fiat">(Moneda) por decreto</string>
     <string name="transactions_confirmations">Confirmaciones</string>
     <string name="transactions_status">Estado</string>
     <string name="transactions_empty_message">No hay transacciones registradas.</string>
@@ -156,25 +144,24 @@
     <string name="transactions_refresh">Actualizar</string>
     <string name="transactions_delete">Eliminar</string>
     <string name="transactions_delete_dialog_title">Eliminar todas las transacciones</string>
-    <string name="transactions_delete_content">¿Está seguro de que desea eliminar todas las transacciones guardadas? No puedes deshacer esta acción.</string>
-    <string name="transactions_delete_all_convertible">¿Está seguro de que desea eliminar todas las transacciones convertibles guardadas? No puedes deshacer esta acción.</string>
+    <string name="transactions_delete_content">¿Estás seguro de que deseas eliminar todas las transacciones guardadas? No puedes deshacer esta acción.</string>
+    <string name="transactions_delete_all_convertible">¿Estás seguro de que deseas eliminar todas las transacciones convertibles guardadas? No puedes deshacer esta acción.</string>
     <string name="transactions_dialog_copy">Copiar ID de transacción</string>
     <string name="transactions_dialog_open_browser">Abrir transacción en el navegador</string>
     <string name="transactions_dialog_delete">Eliminar transacción</string>
     <string name="transactions_id_copied_clipboard">ID de transacción copiada al portapapeles</string>
     <string name="transactions_deleted">La transacción fue eliminada</string>
     <string name="transactions_error">Se produjo un error al descargar %s transacciones. Por favor, inténtalo de nuevo más tarde.</string>
-
-    <string name="transactions_error_convertible">Hubo un problema al descargar las transacciones Changelly. Por favor, inténtelo de nuevo más tarde</string>
+    <string name="transactions_error_convertible">Hubo un problema al descargar las transacciones Changelly. Por favor, inténtalo de nuevo más tarde</string>
     <string name="transactions_convertible_open_browser_incoming">Abrir la transacción entrante en el navegador</string>
     <string name="transactions_convertible_open_browser_outgoing">Abrir la transacción saliente en el navegador</string>
     <string name="transactions_convertible_changelly_id">ID de Changelly:</string>
     <string name="transactions_convertible_rate">Tasa de conversión:</string>
-    <string name="transactions_convertible_fee">Tarifa de conversión:</string>
-    <string name="transactions_network_fee">Tarifa de red:</string>
+    <string name="transactions_convertible_fee">Cargo de conversión:</string>
+    <string name="transactions_network_fee">Cargo de red:</string>
     <string name="transactions_convertible_incoming_amount">Cantidad entrante:</string>
     <string name="transactions_convertible_outgoing_amount">Cantidad saliente:</string>
-
-    <string name="whats_new_1_1_1">- Dai stablecoin support \n- Nano cryptocurrency support \n- Más información sobre el pago cuando se presenta el código QR</string>
-    <string name="whats_new_1_1_2">• Soporte agregado para la conversión entre criptomonedas por servicio de terceros: Changelly. Ahora puede aceptar pagos con más de %s criptomonedas mientras usa solo una criptomoneda primaria (billetera). \N \n• Se agregó soporte para más de 130 nuevas monedas FIAT. \N \n• Términos y servicios actualizados y política de privacidad (ambos se puede encontrar en Preferencias) \n\n• Correo electrónico de soporte agregado a Preferencias \n\n• Mejoras en la experiencia del usuario para usuarios de tabletas</string>
+    <string name="whats_new_1_1_1">- Soporte de moneda estable Dai\n- Soporte de criptomoneda Nano\n- Más información sobre el pago cuando se presente el código QR</string>
+    <string name="whats_new_1_1_2">• Soporte agregado para la conversión entre criptomonedas por servicio de terceros - Changelly. Ahora puedes aceptar pagos con más de %s criptomonedas mientras usas solo una criptomoneda primaria (billetera). \N \n• Soporte agregado para más de 130 nuevas monedas por decreto. \N \n• Términos y Servicios y Política de Privacidad actualizados (ambos se pueden encontrar en Preferencias) \n\n• Correo electrónico de soporte agregado a Preferencias \n\n• Mejoras en la Experiencia del Usuario para usuarios de tabletas</string>
+    <string name="whats_new_1_2_1">Se agregaron traducciones a: español, alemán, checo, eslovaco, portugués, portugués brasileño y holandés</string>
 </resources>

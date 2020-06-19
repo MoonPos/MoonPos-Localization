@@ -71,11 +71,11 @@
     <string name="prefs_fiat_ticker_update">Última atualização de preços</string>
     <string name="prefs_other">De outros</string>
     <string name="prefs_other_payment_verification">Verificação de pagamento</string>
-    <string name="prefs_other_payment_verification_content">Acontece depois de gerar um código QR e confirmar que o pagamento foi enviado. O MoonPos verificará se uma nova transação com determinado valor apareceu na blockchain. Isso permite evitar fraude (o cliente não envia a transação). \N \nPara<b> pagamentos diretos</b> , a verificação de pagamento é suportada para transações BTC, LTC, DASH e ETH. \n\nSe você estiver usando<b> pagamentos conversíveis</b> , a verificação de pagamento é suportada para todas as moedas, exceto Decred (DCR) e Lisk (LSK).</string>
+    <string name="prefs_other_payment_verification_content">Acontece depois de gerar um código QR e confirmar que o pagamento foi enviado. O MoonPos verificará se uma nova transação com determinado valor apareceu na blockchain. Isso permite evitar fraude (o cliente não envia a transação).\n\nPara<b> pagamentos diretos</b> , a verificação de pagamento é suportada para transações BTC, LTC, DASH e ETH.\n\nSe você estiver usando<b> pagamentos conversíveis</b> , a verificação de pagamento é suportada para todas as moedas, exceto Decred (DCR) e Lisk (LSK).</string>
     <string name="prefs_other_support">Suporte</string>
     <string name="prefs_other_support_email">Envie um email usando:</string>
     <string name="prefs_other_about">Sobre</string>
-    <string name="prefs_other_about_content">App criado por<a href="https://twitter.com/AmkSk"> Andrej Martin\u00e1k</a> . \n\nAnima\u00e7\u00f5es de<a href="https://twitter.com/bryvogel"> Bryan Vogel</a> ,  <a href="https://www.lottiefiles.com/tfcorrea"> Tiago Corr\u00eaa</a> ,  <a href="https://dribbble.com/Desare"> Darius Afchar</a> e  <a href="https://www.lottiefiles.com/u/395"> Jean Sala</a></string>
+    <string name="prefs_other_about_content">App criado por<a href="https://twitter.com/AmkSk"> Andrej Martin\u00e1k</a>.\n\nAnima\u00e7\u00f5es de<a href="https://twitter.com/bryvogel"> Bryan Vogel</a> ,  <a href="https://www.lottiefiles.com/tfcorrea"> Tiago Corr\u00eaa</a> ,  <a href="https://dribbble.com/Desare"> Darius Afchar</a> e  <a href="https://www.lottiefiles.com/u/395"> Jean Sala</a></string>
     <string name="prefs_documents">Documentos</string>
     <string name="prefs_crypto_add">Adicionar nova criptomoeda</string>
     <string name="prefs_crypto_save">Salvar alterações</string>
@@ -100,7 +100,7 @@
     <string name="convertible_crypto_already_set_up">Moeda conversível já configurada</string>
     <string name="convertible_crypto_choose">Escolha sua criptomoeda principal. Os pagamentos aceites em outras criptomoedas serão convertidos automaticamente para essa criptomoeda e enviados para sua carteira.</string>
     <string name="convertible_crypto_search_hint">Pesquise por nome ou atalho</string>
-    <string name="convertible_crypto_filter_empty">Nenhuma criptomoeda com nome ou atalho \" %s \" encontrada</string>
+    <string name="convertible_crypto_filter_empty">Nenhuma criptomoeda com nome ou atalho \"%s\" encontrada</string>
     <string name="convertible_crypto_currency_already_added_title">Já está usando %s</string>
     <string name="convertible_crypto_currency_already_added_content">Você já está usando %s como uma criptomoeda para pagamentos. Deseja usá-lo para conversões?</string>
     <string name="convertible_crypto_error_api">Oops! Ocorreu um problema ao baixar a lista de criptomoedas. Tente novamente mais tarde, por favor.</string>
@@ -111,8 +111,8 @@
     <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
     <string name="convertible_crypto_fee">• Para cada conversão, há uma taxa de serviço de 1 %%. As transações diretas (de %1$s a %1$s) são gratuitas.</string>
     <string name="convertible_crypto_agreement_title">Acordo</string>
-    <string name="convertible_crypto_agreement_text1">• Os serviços de troca são fornecidos por terceiros - Changelly. Ao clicar em \"Eu concordo\", você reconhece que leu e concorda com a Changelly \\\'s<a href="https://changelly.com/terms-of-use"> termos de uso</a> e<a href="https://changelly.com/privacy-policy"> política de Privacidade</a> e que você entende que sua transação pode acionar a verificação de LBC /KYC de acordo com os procedimentos de LBC /KYC da Changelly. Você pode ler mais sobre a política<a href="https://changelly.com/aml-kyc"> aqui</a> .</string>
-    <string name="convertible_crypto_agreement_text2">• O MoonPos não aceita responsabilidade e não será responsável por qualquer perda ou dano sofrido como resultado do acesso, uso ou confiança nas informações e serviços da Changelly. O suporte de mudanças pode ser acessado em<a href="https://support.changelly.com"> support.changelly.com</a> ou você pode enviar um email para<a href="mailto:support@changelly.com"> support@changelly.com</a> .</string>
+    <string name="convertible_crypto_agreement_text1">• Os serviços de troca são fornecidos por terceiros - Changelly. Ao clicar em \"Eu concordo\", você reconhece que leu e concorda com a Changelly <a href="https://changelly.com/terms-of-use">termos de uso</a> e <a href="https://changelly.com/privacy-policy">política de Privacidade</a> e que você entende que sua transação pode acionar a verificação de AML/KYC de acordo com os procedimentos de AML /KYC da Changelly. Você pode ler mais sobre a política <a href="https://changelly.com/aml-kyc">aqui</a>.</string>
+    <string name="convertible_crypto_agreement_text2">• O MoonPos não aceita responsabilidade e não será responsável por qualquer perda ou dano sofrido como resultado do acesso, uso ou confiança nas informações e serviços da Changelly. O suporte de mudanças pode ser acessado em <a href="https://support.changelly.com">support.changelly.com</a> ou você pode enviar um email para <a href="mailto:support@changelly.com">support@changelly.com</a> .</string>
     <string name="convertible_crypto_agreement">Concordo</string>
     <string name="convertible_crypto_copy_address_label">%s endereço</string>
     <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
@@ -163,4 +163,5 @@
     <string name="transactions_convertible_outgoing_amount">Montante enviado:</string>
     <string name="whats_new_1_1_1">- Suporte da Dai stablecoin \n- Suporte a nano criptomoeda \n- Mais informações sobre pagamento quando o código QR é apresentado</string>
     <string name="whats_new_1_1_2">• Suporte adicionado para conversão entre criptomoedas por serviço de terceiros - Changelly. Agora você pode aceitar pagamentos com mais de %s criptomoedas usando apenas uma criptomoeda primária (carteira). \N \n• Suporte adicionado para mais de 130 novas moedas FIAT. \N \n• Termos e serviços atualizados e Política de Privacidade (ambos pode ser encontrado em Preferências) \n\n• Adicionado email de suporte às Preferências \n\n• Aprimoramentos da experiência para usuários de tablets</string>
+    <string name="whats_new_1_2_1">Traduções adicionadas para: espanhol, alemão, tcheco, eslovaco, português, português do Brasil e holandês</string>
 </resources>

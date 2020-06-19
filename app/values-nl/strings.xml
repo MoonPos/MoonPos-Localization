@@ -163,4 +163,5 @@
     <string name="transactions_convertible_outgoing_amount">Uitgaand bedrag:</string>
     <string name="whats_new_1_1_1">- Dai stablecoin support\n- Nano cryptovaluta support\n- Meer informatie over betaling als QR-code wordt gepresenteerd</string>
     <string name="whats_new_1_1_2">• Support toegevoegd voor conversie tussen cryptovaluta\'s door service van derden - Changelly. Nu kunt u betalingen accepteren met meer dan %s cryptovaluta\'s terwijl u slechts één primaire cryptovaluta (portemonnee) gebruikt.\n\n• Support toegevoegd voor meer dan 130 nieuwe FIAT-valuta\'s.\n\n• Bijgewerkte Terms en services en Privacybeleid (beide zijn te vinden in Voorkeuren)\n\n• Support e-mail toegevoegd naar Voorkeuren\n\n• Verbeteringen in User Experience voor tabletgebruikers</string>
+    <string name="whats_new_1_2_1">Vertalingen toegevoegd aan: Spaans, Duits, Tsjechisch, Slowaaks, Portugees, Braziliaans Portugees en Nederlands</string>
 </resources>

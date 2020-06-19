@@ -34,7 +34,7 @@
     <!--  ================ SETUP: Welcome Screen ================ -->
     <!-- Setup Screen: Welcome message  -->
     <string name="setup_welcome_message_1">Vítejte v aplikaci MoonPos, vašem nástroji pro jednoduchý příjem plateb v kryptoměnách!</string>
-    <string name="setup_welcome_message_2">Nastavte své kryptoměny a začněte používat aplikaci. Později budete moci nastavit všechna nastavení v předvolbách.</string>
+    <string name="setup_welcome_message_2">Nastavte své kryptoměny a začněte používat aplikaci. Všechna nastavení bude možné upravit později v nastaveních.</string>
     <string name="setup_welcome_message_3">Kliknutím na \"Další\" souhlasíte s našimi</string>
     <!-- Non-convertible currencies are currencies, that are not converted to another. Another name = direct  -->
     <string name="setup_selection_title">Nekonvertovatelné měny</string>
@@ -56,7 +56,7 @@
     <string name="home_rates">Kurz:</string>
     <string name="home_payment_sent">Platba odeslána</string>
     <string name="home_payment_verification_progress_title">Ověření platby</string>
-    <string name="home_payment_verification_progress_message">Čekání na zobrazení platby v síti</string>
+    <string name="home_payment_verification_progress_message">Čekání na objevení transakce v síti</string>
     <string name="home_payment_verification_progress_skip">Přeskočit ověření</string>
     <string name="home_payment_verification_progress_skip_confirm_dialog_content">Opravdu chcete přeskočit ověření platby? Platba se nemusí objevit v síti.</string>
     <string name="home_payment_verification_success_message">Platba byla zaregistrována v síti!</string>
@@ -71,11 +71,11 @@
     <string name="prefs_fiat_ticker_update">Poslední aktualizace cen</string>
     <string name="prefs_other">Ostatní</string>
     <string name="prefs_other_payment_verification">Ověření platby</string>
-    <string name="prefs_other_payment_verification_content">Po vygenerování QR kódu a potvrzení bude platba odeslána. MoonPos zkontroluje, zda se na blockchainu objevila nová transakce s danou částkou. To vám umožní zabránit podvádění (zákazník neodesílá transakci). \n \nPro <b>přímé platby</b>, je ověřování plateb podporováno u transakcí BTC, LTC, DASH a ETH. \n\nPokud používáte <b>převoditelné platby</b>, je ověřování plateb podporováno pro všechny měny s výjimkou Decred (DCR) a Lisk (LSK).</string>
+    <string name="prefs_other_payment_verification_content">Po vygenerování QR kódu a potvrzení bude platba odeslána. MoonPos zkontroluje, zda se na blockchainu objevila nová transakce s danou částkou. To vám umožní zabránit podvádění (zákazník neodesílá transakci).\n\nPro <b>přímé platby</b>, je ověřování plateb podporováno u transakcí BTC, LTC, DASH a ETH.\n\nPokud používáte <b>převoditelné platby</b>, je ověřování plateb podporováno pro všechny měny s výjimkou Decred (DCR) a Lisk (LSK).</string>
     <string name="prefs_other_support">Podpora</string>
     <string name="prefs_other_support_email">Odeslat e-mail pomocí:</string>
     <string name="prefs_other_about">O nás</string>
-    <string name="prefs_other_about_content">Aplikaci vytvo\u0159il <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a> . \n\nAnimace od <a href="https://twitter.com/bryvogel">Bryan Vogel</a> , <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a> , <a href="https://dribbble.com/Desare">Darius Afchar</a>a<a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
+    <string name="prefs_other_about_content">Aplikaci vytvo\u0159il <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a>.\n\nAnimace od <a href="https://twitter.com/bryvogel">Bryan Vogel</a> , <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a> , <a href="https://dribbble.com/Desare">Darius Afchar</a> a <a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
     <string name="prefs_documents">Dokumenty</string>
     <string name="prefs_crypto_add">Přidat novou kryptoměnu</string>
     <string name="prefs_crypto_save">Uložit změny</string>
@@ -100,7 +100,7 @@
     <string name="convertible_crypto_already_set_up">Konvertibilní měna již byla nastavena</string>
     <string name="convertible_crypto_choose">Vyberte primární kryptoměnu. Platby přijaté v jiných kryptoměnách budou automaticky převedeny na tuto kryptoměnu a odeslány do vaší peněženky.</string>
     <string name="convertible_crypto_search_hint">Hledejte podle jména nebo zkratky</string>
-    <string name="convertible_crypto_filter_empty">Nebyla nalezena žádná kryptoměna s názvem nebo zkratkou \"%s \"</string>
+    <string name="convertible_crypto_filter_empty">Nebyla nalezena žádná kryptoměna s názvem nebo zkratkou \"%s\"</string>
     <string name="convertible_crypto_currency_already_added_title">Již používáte %s</string>
     <string name="convertible_crypto_currency_already_added_content">Již používáte %s jako kryptoměnu pro platby. Chcete ji použít pro konverze?</string>
     <string name="convertible_crypto_error_api">Jejda! Při stahování seznamu kryptoměn došlo k potížím. Zkuste to znovu později, prosím.</string>
@@ -109,10 +109,10 @@
     <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
     <string name="convertible_crypto_minimum_amount2">Například minimální částka pro převod z %1$s je v současné době %2$s %3$s, což je přibližně %4$s.</string>
     <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
-    <string name="convertible_crypto_fee">• Za každou konverzi je účtován 1 % %servisní poplatek. Přímé transakce (od %1$s do %1$s) jsou zdarma.</string>
-    <string name="convertible_crypto_agreement_title">Dohoda</string>
-    <string name="convertible_crypto_agreement_text1">• Směnárenské služby poskytuje třetí strana - Changelly. Kliknutím na \"Souhlasím\" potvrzujete, že jste si přečetli a souhlasíte s Changelly <a href="https://changelly.com/terms-of-use">podmínky použití</a>a<a href="https://changelly.com/privacy-policy">Zásady ochrany osobních údajů</a> a že chápete, že vaše transakce může spustit ověření AML /KYC podle postupů AML/KYC společnosti Changelly. Více o těchto pravidlách si můžete přečíst <a href="https://changelly.com/aml-kyc"> tady</a>.</string>
-    <string name="convertible_crypto_agreement_text2">• MoonPos nepřijímá žádnou odpovědnost a nebude odpovědný za žádné ztráty nebo škody způsobené přístupem, používáním nebo spoléháním se na informace a služby společnosti Changelly. Podporu Changelly lze získat na adrese <a href="https://support.changelly.com">support.changelly.com</a> nebo můžete poslat e-mail na adresu<a href="mailto:support@changelly.com">support@changelly.com</a> .</string>
+    <string name="convertible_crypto_fee">• Za každou konverzi je účtován 1%% servisní poplatek. Přímé transakce (od %1$s do %1$s) jsou zdarma.</string>
+    <string name="convertible_crypto_agreement_title">Souhlas</string>
+    <string name="convertible_crypto_agreement_text1">• Směnárenské služby poskytuje třetí strana - Changelly. Kliknutím na \"Souhlasím\" potvrzujete, že jste si přečetli a souhlasíte s Changelly <a href="https://changelly.com/terms-of-use">podmínky použití</a> a <a href="https://changelly.com/privacy-policy">Zásady ochrany osobních údajů</a> a že chápete, že vaše transakce může spustit ověření AML /KYC podle postupů AML/KYC společnosti Changelly. Více o těchto pravidlách si můžete přečíst <a href="https://changelly.com/aml-kyc">tady</a>.</string>
+    <string name="convertible_crypto_agreement_text2">• MoonPos nepřijímá žádnou odpovědnost a nebude odpovědný za žádné ztráty nebo škody způsobené přístupem, používáním nebo spoléháním se na informace a služby společnosti Changelly. Podporu Changelly lze získat na adrese <a href="https://support.changelly.com">support.changelly.com</a> nebo můžete poslat e-mail na adresu <a href="mailto:support@changelly.com">support@changelly.com</a> .</string>
     <string name="convertible_crypto_agreement">Souhlasím</string>
     <string name="convertible_crypto_copy_address_label">%s adresa</string>
     <!-- Clipboard is a place in the memory of the operating system, where you store "copied" data. Imagine "ctrl+c" on Windows   -->
@@ -163,4 +163,5 @@
     <string name="transactions_convertible_outgoing_amount">Odchozí částka:</string>
     <string name="whats_new_1_1_1">- Podpora Dai stabilníchcoinů \n- Podpora kryptoměny Nano \n- Více informací o platbě při předložení kódu QR</string>
     <string name="whats_new_1_1_2">• Přidaná podpora pro převod mezi kryptoměnami pomocí služby třetích stran - Changelly. Nyní můžete přijímat platby s více než %s kryptoměnami a používat pouze jednu primární kryptoměnu (peněženku). \N \n• Přidána podpora více než 130 nových měn FIAT. \N \n• Aktualizované podmínky a služby a zásady ochrany osobních údajů (obě najdete v Předvolbách) \n\n• Přidán e-mail s podporou k Předvolbám \n\n• Vylepšení uživatelského prostředí pro uživatele tabletů</string>
+    <string name="whats_new_1_2_1">Přidány překlady do: španělštiny, němčiny, češtiny, slovenštiny, portugalštiny, brazilské portugalštiny a nizozemštiny</string>
 </resources>

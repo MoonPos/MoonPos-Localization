@@ -25,7 +25,7 @@
     <string name="error_ticker_downlad">Beim Herunterladen vom Ticker ist ein Fehler aufgetreten. Stellen Sie sicher, dass Sie Zugang zum Internet haben und versuchen Sie es noch einmal.</string>
     <!--  ================ SETUP ================ -->
     <!-- Setup Screen: Option to allow user to skip setup    -->
-    <string name="setup_skip_intro">…Ich möchte die App später einrichten</string>
+    <string name="setup_skip_intro">…Ich möchte die App später einrichten.</string>
     <string name="setup_skip">Einrichten überspringen</string>
     <string name="setup_skip_dialog_positive">Überspringen</string>
     <string name="setup_skip_are_you_sure">Möchten Sie die Einrichtung überspringen? Wenn ja, die App stellt Kryptowährungen mit unseren zufälligen Adressen ein und die voreingestellte FIAT währung wird USD.</string>
@@ -71,11 +71,11 @@
     <string name="prefs_fiat_ticker_update">Letzte Preisaktualisierung</string>
     <string name="prefs_other">Andere</string>
     <string name="prefs_other_payment_verification">Zahlungsverifizierung</string>
-    <string name="prefs_other_payment_verification_content">Nach der QR-Code Generierung und Bestätigung wird die Zahlung versendet. MoonPos kontrolliert, ob auf Blockchain eine neue Transaktion mit dem gegebenen Betrag registriert wurde. Dies ermöglicht Ihnen Betrügen vorzubeugen (Kunde versendet keine Transaktion). \n \nFür <b>direkte Zahlungen</b>, ist die Zahlungsverifizierung bei Transaktionen BTC, LTC, DASH und ETH unterstützt. \n\nWenn Sie <b>übertragbare Zahlungen verwenden</b>, ist die Zahlungsidentifizierung unterstützt für alle Währungen mit der Ausnahme von Decred (DCR) und Lisk (LSK).</string>
+    <string name="prefs_other_payment_verification_content">Nach der QR-Code Generierung und Bestätigung wird die Zahlung versendet. MoonPos kontrolliert, ob auf Blockchain eine neue Transaktion mit dem gegebenen Betrag registriert wurde. Dies ermöglicht Ihnen Betrügen vorzubeugen (Kunde versendet keine Transaktion).\n\nFür <b>direkte Zahlungen</b>, ist die Zahlungsverifizierung bei Transaktionen BTC, LTC, DASH und ETH unterstützt.\n\nWenn Sie <b>übertragbare Zahlungen verwenden</b>, ist die Zahlungsidentifizierung unterstützt für alle Währungen mit der Ausnahme von Decred (DCR) und Lisk (LSK).</string>
     <string name="prefs_other_support">Hilfe</string>
     <string name="prefs_other_support_email">E-mail versenden durch:</string>
     <string name="prefs_other_about">Über uns</string>
-    <string name="prefs_other_about_content">Author der App: <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a> . \n\nAnimationen von <a href="https://twitter.com/bryvogel">Bryan Vogel</a> , <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a> , <a href="https://dribbble.com/Desare">Darius Afchar</a>a<a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
+    <string name="prefs_other_about_content">Author der App: <a href="https://twitter.com/AmkSk">Andrej Martin\u00e1k</a>.\n\nAnimationen von <a href="https://twitter.com/bryvogel">Bryan Vogel</a> , <a href="https://www.lottiefiles.com/tfcorrea">Tiago Corr\u00eaa</a> , <a href="https://dribbble.com/Desare">Darius Afchar</a> und <a href="https://www.lottiefiles.com/u/395">Jean Sala</a></string>
     <string name="prefs_documents">Dokumente</string>
     <string name="prefs_crypto_add">Neue Kryptowährung hinzufügen</string>
     <string name="prefs_crypto_save">Änderungen speichern</string>
@@ -100,7 +100,7 @@
     <string name="convertible_crypto_already_set_up">Konvertierbare Kryptowährung wurde bereits eingestellt</string>
     <string name="convertible_crypto_choose">Wählen Sie primäre Kryptowährung aus. Zahlungen, die in anderen Kryptowährungen durchgeführt wurden werden automatisch in diese Kryptowährung umgewandelt und in Ihre Geldtasche überwiesen.</string>
     <string name="convertible_crypto_search_hint">Nach Name oder Abkürzung suchen</string>
-    <string name="convertible_crypto_filter_empty">Keine Währung mit dem Namen oder der Abkürzung \"%s \" wurde gefunden</string>
+    <string name="convertible_crypto_filter_empty">Keine Währung mit dem Namen oder der Abkürzung \"%s\" wurde gefunden</string>
     <string name="convertible_crypto_currency_already_added_title">Sie verwenden bereits %s</string>
     <string name="convertible_crypto_currency_already_added_content">Sie verwenden %s bereits als Kryptowährung für Zahlungen. Möchten Sie sie für Konversionen verwenden?</string>
     <string name="convertible_crypto_error_api">Hoppla! Beim Herunterladen von der Kryptowährungliste kam es zu einer Störung. Versuchen Sie es bitte später noch einmal.</string>
@@ -109,7 +109,7 @@
     <!-- This string could look like this: For example, the minimum amount for conversion from BTC is currently 123 USD, which is about 0.00001234.  -->
     <string name="convertible_crypto_minimum_amount2">Zum Beispiel, der Mindestbetrag für einen Transfer von %1$s ist derzeit %2$s %3$s, was heißt ungefähr %4$s.</string>
     <!-- ... Direct transactions (from BTC to LTC) are free of charge.-->
-    <string name="convertible_crypto_fee">• Für jede Konversion wird 1 % % Servicegebühr eingerechnet. Direkte Transaktionen (von %1$s bis %1$s) sind gebührenfrei.</string>
+    <string name="convertible_crypto_fee">• Für jede Konversion wird 1%% Servicegebühr eingerechnet. Direkte Transaktionen (von %1$s bis %1$s) sind gebührenfrei.</string>
     <string name="convertible_crypto_agreement_title">Servicevertrag</string>
     <string name="convertible_crypto_agreement_text1">• Die Geldwechseldienste werden von einem Drittanbieter - Changelly bereitgestellt. Durch das Clicken auf \"Ich stimme zu\" bestätigen Sie, dass Sie folgende Dokumente von Changelly gelesen und verstanden haben: <a href="https://changelly.com/terms-of-use">Geschäftsbedingungen</a>a<a href="https://changelly.com/privacy-policy">Datenschutzerklärung</a>. Gleichzeitig bestätigen Sie, dass Sie verstehen, dass Ihre Transaktion die AML /KYC Überprüfung nach Richtlinien von AML/KYC des Anbieters Changelly auslösen kann. Sie können über diese Richtlinien mehr hier erfahren <a href="https://changelly.com/aml-kyc"></a>.</string>
     <string name="convertible_crypto_agreement_text2">• MoonPos übernimmt keine Verantwortung und haftet nicht für Verluste oder Schäden, die durch den Zugriff auf, die Nutzung oder das Vertrauen auf die Informationen und Dienste von Changelly entstanden sind. Produktunterstützung von Changelly kann man über <a href="https://support.changelly.com">support.changelly.com</a> erreichen, oder Sie können die Firma über die Emailadresse <a href="mailto:support@changelly.com">support@changelly.com</a> kontaktieren.</string>
@@ -163,4 +163,5 @@
     <string name="transactions_convertible_outgoing_amount">Ausgehender Betrag:</string>
     <string name="whats_new_1_1_1">- Hilfe mit der stabilen Dai Kryptowährung \n- Hilfe mit der Kryptowährung Nano \n- Mehr Informationen über die Zahlung beim Vorlegen vom QR-Code</string>
     <string name="whats_new_1_1_2">• Unterstützung für das Umschalten zwischen Kryptowährungen mithilfe eines Drittanbieters - Changelly - hinzugefügt. Ab jetzt können Sie Zahlungen mit mehr als %s Kryptowährungen annehmen und nur eine einzige Kryptowährung (Geldtasche) verwenden. \N \n• Hilfe für mehr als 130 neue FIAT Währungen hinzugefügt. \N \n• Aktualisierte Nutzungsbedingungen und Datenschutzrichtlinien (beide in den Einstellungen zu finden) \n\n• E-Mail mit der Unterstützung von Einstellungen hinzugefügt \n\n• Verbesserte Benutzererfahrung für Tablet-Benutzer</string>
+    <string name="whats_new_1_2_1">Übersetzungen hinzugefügt zu: Spanisch, Deutsch, Tschechisch, Slowakisch, Portugiesisch, Brasilianisches Portugiesisch und Niederländisch</string>
 </resources>

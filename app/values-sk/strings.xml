@@ -25,7 +25,7 @@
     <string name="error_ticker_downlad">Nastala chyba pri sťahovaní tickeru. Prosím, uistite sa, že ste online a skúste to znovu.</string>
     <!--  ================ SETUP ================ -->
     <!-- Setup Screen: Option to allow user to skip setup    -->
-    <string name="setup_skip_intro">… nastavím si aplikáciu neskôr</string>
+    <string name="setup_skip_intro">… aplikáciu asi nastavím neskôr.</string>
     <string name="setup_skip">Preskočiť nastavenie</string>
     <string name="setup_skip_dialog_positive">Preskočiť</string>
     <string name="setup_skip_are_you_sure">Ste si istý, že chcete preskočiť nastavenie aplikácie? Ak áno, aplikácia Vám vytvorí kryptomeny s náhodnými adresami a použitá FIAT mena bude USD.</string>
@@ -47,7 +47,7 @@
     <string name="setup_address_insertion_invalid">Táto adresa je neplatná!</string>
     <string name="setup_settings_title">Vyberte vašu FIAT menu</string>
     <string name="setup_settings_default_fiat">Predvolená FIAT mena:</string>
-    <string name="setup_ticker_download_progress">Sťahujem ticker</string>
+    <string name="setup_ticker_download_progress">Sťahujem ceny</string>
     <!-- ================ HOME SCREEN ================ -->
     <string name="home_generate">Vygenerovať QR kód</string>
     <string name="home_address">Adresa:</string>
@@ -60,8 +60,8 @@
     <string name="home_payment_verification_progress_skip">Preskočiť potvrdzovanie</string>
     <string name="home_payment_verification_progress_skip_confirm_dialog_content">Ste si istý, že chcete preskočiť potvrdenie platby? Platba sa nemusela objaviť na sieti.</string>
     <string name="home_payment_verification_success_message">Platba sa objavila na sieti!</string>
-    <string name="home_payment_verification_error_message">Hups! Nastala chyba s potvrdzovaním platby. Skúste to neskôr, prosím</string>
-    <string name="home_payment_verification_done">Hotovo! Vaša transakcia bola uložená</string>
+    <string name="home_payment_verification_error_message">Hups! Nastala chyba s potvrdzovaním platby. Skúste to neskôr, prosím.</string>
+    <string name="home_payment_verification_done">Hotovo! Vaša transakcia bola uložená.</string>
     <string name="home_error_ticker_fetch">Platby pre %s nebolo možné získať.</string>
     <!-- ================ PREFERENCES ================ -->
     <string name="prefs_title">Nastavenia</string>
@@ -140,7 +140,7 @@
     <string name="transactions_confirmations">Potvrdenia</string>
     <string name="transactions_status">Stav</string>
     <string name="transactions_empty_message">Žiadne uložené transakcie.</string>
-    <string name="transactions_empty_message_convertible">Nemáte žiadne uložené konvertovateľné transakcie.</string>
+    <string name="transactions_empty_message_convertible">Nemáte uložené žiadne konvertovateľné transakcie.</string>
     <string name="transactions_refresh">Obnoviť</string>
     <string name="transactions_delete">Vymazať</string>
     <string name="transactions_delete_dialog_title">Vymazať všetky transakcie</string>
@@ -162,4 +162,5 @@
     <string name="transactions_convertible_incoming_amount">Prichádzajúca hodnota:</string>
     <string name="transactions_convertible_outgoing_amount">Odchádzajúca hodnota:</string>
     <string name="whats_new_1_1_1">- Podpora Dai stablecoin\n- Podpora Nano Kryptomeny\n- Viac informácií o platbe pri zobrazenom QR kóde</string>
+    <string name="whats_new_1_2_1">Pridané preklady do: španielčiny, nemčiny, češtiny, slovenčiny, portugalčiny, brazílskej portugalčiny a holandčiny</string>
 </resources>
